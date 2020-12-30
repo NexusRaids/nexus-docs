@@ -1,6 +1,11 @@
 # Admin's Guide
 
-## Commands
+## Quick Setup
+
+- :guilabel:``Invite Bot <https://discord.com/oauth2/authorize?client_id=761036478783422484&permissions=1342696528&scope=bot>`__`
+
+
+## Command 
 
 ```eval_rst
 .. csv-table::
@@ -43,4 +48,4 @@
    ``raid-channel``, "Use this to set the channel in which raids will be posted. All other messages will be removed from this channel."
    ``setup-channel``, "Use this to set the channel in which Nexus will mention players when they try to create or join raids and they don't have permission to do so."
    ``toggle``, "Use this to access toggle configuration."
-``` 
+```
