@@ -13,7 +13,8 @@
    ``!punish``, "Use this to deduct 10 points from a user."
    ``!reset-points``, "Use this to reset the amount of points from a user."
    ``!rr``, "Use this to access reaction roles."
-   ``!server``, "Use this to access server settings."   
+   ``!server``, "Use this to access server settings."
+   
 ```
 
 ### !create
