@@ -7,6 +7,6 @@ Nexus Command Guide
    :maxdepth: 2
    :hidden:
 
-   administration
    profile
    raids
+   administration
