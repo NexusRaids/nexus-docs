@@ -2,7 +2,7 @@
 
 ## Quick Setup
 
-- :guilabel:``Invite Bot <https://discord.com/oauth2/authorize?client_id=761036478783422484&permissions=1342696528&scope=bot>`__`
+1. <a href="https://discord.com/oauth2/authorize?client_id=761036478783422484&permissions=1342696528&scope=bot" target="_blank">:guilabel:`Invite Bot`</a>
 
 
 ## Command 
