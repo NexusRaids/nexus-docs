@@ -1,6 +1,6 @@
 # Admin's Guide
 
-##Commands
+## Commands
 
 ```eval_rst
 .. csv-table::
@@ -10,28 +10,28 @@
    ``!server``, "Use this to access server settings."
 ```
 
-###Server
+### Server
 
 `!server <setting>`
 
 ```eval_rst
 .. csv-table::
-   :header: "Command"
-   :widths: 5
+   :header: "Setting", "Description"
+   :widths: 5, 20
 
-   ``change-prefix``
-   ``online-channel``
-   ``raid-channel``
-   ``setup-channel``
-   ``toggle``
+   ``change-prefix``, "Use this to set the change the prefix on your server."
+   ``online-channel``, "Use this to set the channel in which you'll receive raids from other servers."
+   ``raid-channel``, "Use this to set the channel in which raids will be posted. All other messages will be removed from this channel."
+   ``setup-channel``, "Use this to set the channel in which Nexus will mention players when they try to create or join raids and they don't have permission to do so."
+   ``toggle``, "Use this to access toggle configuration."
 ```
 
-####Change Prefix
+#### Change Prefix
 
-####Online Channel
+#### Online Channel
 
-####Raid Channel
+#### Raid Channel
 
-####Setup Channel  
+#### Setup Channel  
 
-####Toggle 
+#### Toggle 
