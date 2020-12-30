@@ -26,9 +26,9 @@
 
 > Before a user can raid, three profile settings must be set that matches your Pokémon Go profile:
 
-    `!set ign mycoolname` This will set the in game name.
-    `!set tc 111122223333` This will set your friend code.
-    `!set level 50` This will set your current trainer level.
+> > 1. ``!set ign mycoolname`` This will set the in game name.
+> > 2. ``!set tc 111122223333`` This will set your friend code.
+> > 3. ``!set level 50`` This will set your current trainer level.
 
 ## Command Reference
 
