@@ -79,6 +79,9 @@ git checkout -b gh-pages
 # add .nojekyll to the root so that github won't 404 on content added to dirs
 # that start with an underscore (_), such as our "_content" dir..
 touch .nojekyll
+
+# add CNAME for GitHub pages custom domain
+echo 'docs.nexusraids.com' > CNAME
  
 # copy the resulting html pages built from sphinx above to our new git repo
 git add .
