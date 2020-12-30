@@ -1,30 +1,37 @@
-# Administration Commands
+# Admin's Guide
+
+##Commands
 
 ```eval_rst
 .. csv-table::
    :header: "Command", "Description"
    :widths: 5, 20
 
-   `[`!create`](#Create)`, "Use this to access create options."
-   `[`!delete`](#Delete)`, "Use this to access delete options. "
-   `[`!poke-rr`](#Poke Reaction Roles )`, "Use this to access Pokémon reaction roles."
-   `[`!punish`](#Punish)`, "Use this to deduct 10 points from a user."
-   `[`!reset-points`](#Reset Points)`, "Use this to reset the amount of points from a user."
-   `[`!rr`](#Reaction Roles)`, "Use this to access reaction roles."
-   `[`!server`](#Server)`, "Use this to access server settings."
+   ``!server``, "Use this to access server settings."
 ```
 
-##Create
+###Server
 
-##Delete
+`!server <setting>`
 
-##Poke Reaction Roles
+```eval_rst
+.. csv-table::
+   :header: "Command"
+   :widths: 5
 
-##Punish
+   ``change-prefix``
+   ``online-channel``
+   ``raid-channel``
+   ``setup-channel``
+   ``toggle``
+```
 
-##Reset Points
+####Change Prefix
 
-##Reaction Roles
+####Online Channel
 
-##Server
+####Raid Channel
 
+####Setup Channel  
+
+####Toggle 
