@@ -89,6 +89,8 @@
 
 ```
 
+.. _point-system:
+
 ## Point System
 
 > Nexus uses a point system to reward active Trainers on a per server basis. Use `!leaderboard` or `!profile <@user>` to view point totals.
