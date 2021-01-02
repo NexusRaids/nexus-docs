@@ -2,6 +2,8 @@
 
 > Trainer profiles in Nexus are shared across servers wherever the bot is installed allowing for a seamless experience in every community.
 
+
+
 ## Initial Setup
 
 ```eval_rst
@@ -12,6 +14,8 @@
    ``!set profile``, "This will guide you through all of the ``!set`` commands you don't have set, one by one."
    
 ```
+
+
 
 ## Updating
 
@@ -27,6 +31,8 @@
    ``!set team <team>``, "Use this to set your team. The available teams are mystic, valor and instinct."
    
 ```
+
+
 
 ## Other
 

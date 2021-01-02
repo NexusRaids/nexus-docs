@@ -6,13 +6,41 @@
 >
 > <img src="_static/img/join.png?update">
 
+
+
 ## Hosting Raids
 
 ### Raid Command
 
 > The `!raid` command in Nexus is the primary method for Host to create raids and can be used in any channel. It can be used simply as `!r` or as a full meal deal. All command `<inputs>` are optional but must be used in order otherwise Nexus will give an error. 
 
-> `![raid|r] <pokemon> <time_left=45> <weather_boosted=no> <invites_limit=5> <only_hosting=no> <min_level=1> <rehost=no>`
+```eval_rst
+.. csv-table::
+   :header: "Command", "Description"
+   :widths: 5, 20
+
+   ``![raid|r] <1> <2> <3> <4> <5> <6> <7>``, "Use this to create a raid. No input is required, you can just run ``!raid``."
+
+```
+
+#### Raid Command Inputs
+
+```eval_rst
+.. csv-table::
+   :header: "#", "Input", "Description"
+   :widths: 2, 5, 18
+
+   "1", ``<pokemon>``, "Use this to set the Raid Boss."
+   "2", ``<time_left=45>``, "Use this to set the time left in raid (1-45)."
+   "3", ``<weather_boosted=no>``, "Use this to indicate the raid is weather boosted (yes/no)."
+   "4", ``<invites_limit=5>``, "Use this to set the invite limit (1-20)."
+   "5", ``<only_hosting=no>``, "Use this to set only hosting (yes/no)."
+   "6", ``<min_level=1>``, "Use this to set minimum Trainer level (1-50)."
+   "7", ``<rehost=no>``, "Use this to indicate the raid is a rehost (yes/no)."
+
+```
+
+
 
 ### Screenshots
 
@@ -20,11 +48,15 @@
 >
 > <img src="_static/img/charizard-mega-x.png">
 
+
+
 ### Raid Boss Name
 
 > In the "raid-channel" setup for the community, Trainers can simply use a Raid Boss name to create a raid, and Nexus will walk through the steps necessary to start the raid.
 >
 > Example: `charizard-mega-x`
+
+
 
 ### Raid Lobby Commands
 
@@ -50,6 +82,8 @@
    ``!report <@user>``, "Use this to report behaviour of users on a raid. This will deduct 1 point from the user."
 
 ```
+
+
 
 ## Other Commands
 

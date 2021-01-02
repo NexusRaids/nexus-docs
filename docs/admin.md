@@ -2,6 +2,8 @@
 
 > The following commands can only be preformed by users with the `nexus-moderators` role.
 
+
+
 ## Command Reference
 
 ```eval_rst
@@ -19,6 +21,8 @@
 
 ```
 
+
+
 ### Create Settings
 
 ```eval_rst
@@ -26,7 +30,7 @@
    :header: "Command", "Description"
    :widths: 5, 20
 
-   ``!create emoji <pokemon> <verbose=True>``, "This will create an emoji from the pokémon you input. It has a cooldown of 60 seconds."
+   ``!create emoji <pokemon> <verbose=True>``, "This will create an emoji from the Pokémon you input. It has a cooldown of 60 seconds."
    ``!create role <arg> <verbose=True>``, "Use this to create a role."
    ``!create team-roles``, "Use this to create the mystic, valor and instinct roles."
 
@@ -34,18 +38,22 @@
 
 ### Delete Settings
 
+
+
 ```eval_rst
 .. csv-table::
    :header: "Command", "Description"
    :widths: 5, 20
 
    ``!delete all-poke-roles``, "Use this to delete all the poke roles in your server."
-   ``!delete emoji <pokemon> <verbose=True>``, "This will delete an emoji from the pokémon you input. It has a cooldown of 60 seconds."
-   ``!delete not-global-poke-roles``, "Use this to delete all the poke roles from pokémon that are currently not active in raids."
-   ``!delete poke-roles <pokemon...>``, "Use this to delete the roles of the pokémon you input, as well as the weather boosted roles."
+   ``!delete emoji <pokemon> <verbose=True>``, "This will delete an emoji from the Pokémon you input. It has a cooldown of 60 seconds."
+   ``!delete not-global-poke-roles``, "Use this to delete all the poke roles from Pokémon that are currently not active in raids."
+   ``!delete poke-roles <pokemon...>``, "Use this to delete the roles of the Pokémon you input, as well as the weather boosted roles."
    ``!delete role <arg> <verbose=True>``, "Use this to delete a role."
 
 ```
+
+
 
 ### Poke RR Settings
 
@@ -54,11 +62,13 @@
    :header: "Command", "Description"
    :widths: 5, 20
 
-   ``!poke-rr create <channel> <pokemon...>``, "Use this to create a reaction role of the pokémon you input. This will create both a normal reaction role and a weather boosted reaction role, along with all roles."
-   ``!poke-rr global <channel> <tier=all>``, "Use this to create a reaction role of the pokémon currently in raids. Tiers: ``<mega|5|3|1>``"
-   ``!poke-rr preview <pokemon...>``, "Use this to preview the reaction role for the pokémon you input."
+   ``!poke-rr create <channel> <pokemon...>``, "Use this to create a reaction role of the Pokémon you input. This will create both a normal reaction role and a weather boosted reaction role, along with all roles."
+   ``!poke-rr global <channel> <tier=all>``, "Use this to create a reaction role of the Pokémon currently in raids. Tiers: ``<mega|5|3|1>``"
+   ``!poke-rr preview <pokemon...>``, "Use this to preview the reaction role for the Pokémon you input."
 
 ```
+
+
 
 ### RR Settings
 
@@ -72,6 +82,8 @@
    ``!rr view``, "Use this to view all your reaction roles. There's a limit fo 50 per server."
 
 ```
+
+
 
 ### Server Settings
 
@@ -87,6 +99,8 @@
    ``!server toggle <setting>``, "Use this to access toggle configuration. See `Server Toggle Settings`_."
    
 ```
+
+
 
 #### Server Toggle Settings
 
