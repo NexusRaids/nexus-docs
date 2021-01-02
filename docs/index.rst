@@ -8,6 +8,7 @@ Nexus Command Guide
    :hidden:
 
    quick-start
-   profile
-   raids
-   administration
+   trainer
+   raid
+   notification
+   admin

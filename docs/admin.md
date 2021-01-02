@@ -1,4 +1,4 @@
-# Admin's Guide
+# Admin Guide
 
 ## Command Reference
 

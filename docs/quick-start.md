@@ -20,10 +20,6 @@
 
 > Once Nexus is configured, add all your mods and admins to the `nexus-moderators` role.
 
-### Setup Your Profile
+### Setup Profiles
 
-> Before a user can raid, three profile settings must be set that matches your Pokémon Go profile:
-
-> > 1. ``!set ign mycoolname`` This will set the in game name.
-> > 2. ``!set tc 111122223333`` This will set your friend code.
-> > 3. ``!set level 50`` This will set your current trainer level.
+> Before a user can raid, a profile needs to be setup by running `!set profile` with entries that matches their Pokémon Go profile.
