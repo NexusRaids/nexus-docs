@@ -40,6 +40,7 @@ Setup Profiles
    raid
    notification
    admin
+   donation
    
 .. |invite_link| raw:: html
 
