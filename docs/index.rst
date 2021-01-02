@@ -36,6 +36,7 @@ Setup Profiles
    :maxdepth: 2
    :hidden:
 
+   command
    trainer
    raid
    notification
