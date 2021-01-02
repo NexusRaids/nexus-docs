@@ -84,14 +84,5 @@ html_theme_options = {
 # At the bottom of conf.py
 def setup(app):
     app.add_transform(AutoStructify)
-	
-from sphinx.writers.html import HTMLTranslator
-class PatchedHTMLTranslator(HTMLTranslator):
-   def visit_reference(self, node):
-      if node.get('newtab') or not (node.get('target') or node.get('internal') 
-         or 'refuri' not in node):
-            node['target'] = '_blank'
-            super().visit_reference(node)
 
-def setup(app):
-    app.set_translator('html', PatchedHTMLTranslator)	
+	

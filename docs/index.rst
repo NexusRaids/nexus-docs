@@ -4,7 +4,7 @@ Nexus Quick Start
 Inviting Nexus 
 ##############
 
-    Add Nexus to your server: `[Invite Bot] <https://discord.com/oauth2/authorize?client_id=761036478783422484&permissions=1342696528&scope=bot>`__
+    Add Nexus to your server: |invite_link|
 
     Once Nexus is added to your server, it will immediately create a new channel called ``#nexus-updates``. This channel is used for update notifications and the ``nexus-moderator`` role for people who want to run administration commands.
 
@@ -40,3 +40,7 @@ Setup Profiles
    raid
    notification
    admin
+   
+.. |invite_link| raw:: html
+
+   <a href="https://discord.com/oauth2/authorize?client_id=761036478783422484&permissions=1342696528&scope=bot" target="_blank">[Invite Bot]</a>
