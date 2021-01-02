@@ -89,7 +89,10 @@
 
 ```
 
+```eval_rst
 .. _point-system:
+
+```
 
 ## Point System
 
