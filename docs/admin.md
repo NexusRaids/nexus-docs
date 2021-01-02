@@ -17,7 +17,7 @@
    ``!rr <setting>``, "Use this to access reaction roles. See `RR Settings`_."
    ``!server <setting>``, "Use this to access server settings. See `Server Settings`_."
 
-.. Note:: Nexus has a 50 reaction roles limit per server for ``!poke-rr`` and ``!rr`` commands. If you would like to increase that limit please see :doc:`Donations<donation>` to learn more.
+.. Note:: Nexus has a 50 reaction roles limit per user/server for ``!poke-rr`` and ``!rr`` commands. If you would like to increase that limit please see :doc:`Donations<donation>` to learn more.
 
 ```
 
