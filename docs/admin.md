@@ -12,7 +12,7 @@
    ``!create <setting>``, "Use this to access create options. See `Create Settings`_."
    ``!delete <setting>``, "Use this to access delete options. See `Delete Settings`_."
    ``!poke-rr <setting>``, "Use this to access Pokémon reaction roles. See `Poke RR Settings`_."
-   ``!punish <@user>``, "Use this to deduct 10 points from a user. See :ref:`Point System`"
+   ``!punish <@user>``, "Use this to deduct 10 points from a user. See `Point System<raid.html#point-system>`__"
    ``!reset-points <@user>``, "Use this to reset the amount of points from a user."
    ``!rr <setting>``, "Use this to access reaction roles. See `RR Settings`_."
    ``!server <setting>``, "Use this to access server settings. See `Server Settings`_."
