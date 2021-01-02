@@ -6,5 +6,8 @@
 >
 >
 > Example message entry in Discord for `!set [tc|fc|trainer-code|friend-code] <trainer_code>` would be `!set tc 111122223333` or `!set trainer-code 111122223333`.
-> 
-> Note, when a command has an input of `<verbose=True>` this means Nexus will return a response by default. To override the command response enter `False`.
+
+```eval_rst
+.. Note:: when a command has an input of ``<verbose=True>`` this means Nexus will return a response by default. To override the command response enter ``False``.
+
+```
