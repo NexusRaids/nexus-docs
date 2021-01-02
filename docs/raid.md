@@ -14,7 +14,8 @@
 
 > In the "raid-channel" setup for the community, Trainers can simply upload a screenshot of the Raid Boss to create a raid, and Nexus will walk through the steps necessary to start the raid.
 >
-> Example: <img src="_static/img/charizard-mega-x.png">
+> Example:
+> <img src="_static/img/charizard-mega-x.png">
 
 ### Raid Boss Name
 
