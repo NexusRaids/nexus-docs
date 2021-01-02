@@ -4,7 +4,7 @@
 
 > In the "raid-channel" setup for the community, Trainers can join raids by clicking the "raid pass", and Nexus will prompt the Trainer to join the raid lobby.
 >
-> <img src="_static/img/join.png">
+> <img src="_static/img/join.png?update">
 
 ## Hosting Raids
 
