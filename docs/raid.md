@@ -30,13 +30,13 @@
    :header: "#", "Input", "Description"
    :widths: 2, 5, 18
 
-   "1", ``<pokemon>``, "Use this to set the Raid Boss."
-   "2", ``<time_left=45>``, "Use this to set the time left in raid (1-45)."
-   "3", ``<weather_boosted=no>``, "Use this to indicate the raid is weather boosted (yes/no)."
-   "4", ``<invites_limit=5>``, "Use this to set the invite limit (1-20)."
-   "5", ``<only_hosting=no>``, "Use this to set only hosting (yes/no)."
-   "6", ``<min_level=1>``, "Use this to set minimum Trainer level (1-50)."
-   "7", ``<rehost=no>``, "Use this to indicate the raid is a rehost (yes/no)."
+   "<1>", ``<pokemon>``, "Use this to set the Raid Boss."
+   "<2>", ``<time_left=45>``, "Use this to set the time left in raid (1-45)."
+   "<3>", ``<weather_boosted=no>``, "Use this to indicate the raid is weather boosted (yes/no)."
+   "<4>", ``<invites_limit=5>``, "Use this to set the invite limit (1-20)."
+   "<5>", ``<only_hosting=no>``, "Use this to set only hosting (yes/no)."
+   "<6>", ``<min_level=1>``, "Use this to set minimum Trainer level (1-50)."
+   "<7>", ``<rehost=no>``, "Use this to indicate the raid is a rehost (yes/no)."
 
 ```
 
