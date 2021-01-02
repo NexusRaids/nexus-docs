@@ -18,7 +18,7 @@
    ``!reset-points <@user>``, "Use this to reset the amount of points from a user."
    ``!rr <setting>``, "Use this to access reaction roles. See `RR Settings`_."
    ``!server <setting>``, "Use this to access server settings. See `Server Settings`_."
-   
+
 ```
 
 ### Create Settings
