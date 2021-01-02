@@ -5,6 +5,7 @@ Inviting Nexus
 ##############
 
 ::
+
 |invite_link|
 
 Once Nexus is added to your server, it will immediately create a new channel called ``#nexus-updates``. This channel is used for update notifications and the ``nexus-moderator`` role for people who want to run administration commands.
@@ -12,7 +13,7 @@ Once Nexus is added to your server, it will immediately create a new channel cal
 Configuring Nexus
 #################
 
-Raiding::
+Raiding
 *******
 
     You need to setup your raid channel with ``!server raid-channel <#channel>``. The raid channel is a special channel in which all raids will be.
