@@ -7,13 +7,16 @@
    :header: "Command", "Description"
    :widths: 5, 20
 
-   ``!create <setting>``, "Use this to access create options."
-   ``!delete <setting>``, "Use this to access delete options."
-   ``!poke-rr <setting>``, "Use this to access Pokémon reaction roles."
+   ``!create <setting>``, "Use this to access create options. See `Create Settings`_"
+   ``!delete <setting>``, "Use this to access delete options. See `Delete Settings`_"
+   ``!poke-rr <setting>``, "Use this to access Pokémon reaction roles. See `Poke RR Settings`_"
+   ``!pst``, "Get the current time in PST. This is useful for events that start in this timezone."
    ``!punish <@user>``, "Use this to deduct 10 points from a user."
    ``!reset-points <@user>``, "Use this to reset the amount of points from a user."
-   ``!rr <setting>``, "Use this to access reaction roles."
-   ``!server <setting>``, "Use this to access server settings."
+   ``!rr <setting>``, "Use this to access reaction roles. See `RR Settings`_"
+   ``!server <setting>``, "Use this to access server settings. See `Server Settings`_"
+   ``!summon``, "Summon Nexus."
+   ``!support``, "This will give you the invite link to the support discord server of Nexus."
    
 ```
 
@@ -53,7 +56,7 @@
    :widths: 5, 20
 
    ``!poke-rr create <channel> <pokemon...>``, "Use this to create a reaction role of the pokémon you input. This will create both a normal reaction role and a weather boosted reaction role, along with all roles."
-   ``!poke-rr global <channel> <tier=all>``, "Use this to create a reaction role of the pokémon currently in raids. Tiers: ``[mega|5|3|1]``"
+   ``!poke-rr global <channel> <tier=all>``, "Use this to create a reaction role of the pokémon currently in raids. Tiers: ``<mega|5|3|1>``"
    ``!poke-rr preview <pokemon...>``, "Use this to preview the reaction role for the pokémon you input."
 
 ```
