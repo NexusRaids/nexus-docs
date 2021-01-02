@@ -14,7 +14,7 @@
 
 > In the "raid-channel" setup for the community, Trainers can simply upload a screenshot of the Raid Boss to create a raid, and Nexus will walk through the steps necessary to start the raid.
 >
-> Example: |charizard-mega-x|
+> Example: <img src="_static/img/charizard-mega-x.png">
 
 ### Raid Boss Name
 
@@ -58,7 +58,3 @@
    ``!raw-raid-bosses``, "Use this to get the raw list of the active bosses."
 
 ```
-
-.. |charizard-mega-x| raw:: html
-
-   <img src="_static/img/charizard-mega-x.png">
