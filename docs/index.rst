@@ -39,8 +39,8 @@ Setup Profiles
    command
    trainer
    raid
-   notification
    admin
+   other
    donation
    
 .. |invite_link| raw:: html

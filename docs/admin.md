@@ -1,5 +1,7 @@
 # Admin Guide
 
+> The following commands can only be preformed by users with the `nexus-moderators` role.
+
 ## Command Reference
 
 ```eval_rst
@@ -7,16 +9,15 @@
    :header: "Command", "Description"
    :widths: 5, 20
 
-   ``!create <setting>``, "Use this to access create options. See `Create Settings`_"
-   ``!delete <setting>``, "Use this to access delete options. See `Delete Settings`_"
-   ``!poke-rr <setting>``, "Use this to access Pokémon reaction roles. See `Poke RR Settings`_"
-   ``!pst``, "Get the current time in PST. This is useful for events that start in this timezone."
+   ``!create <setting>``, "Use this to access create options. See `Create Settings`_."
+   ``!delete <setting>``, "Use this to access delete options. See `Delete Settings`_."
+   ``!poke-rr <setting>``, "Use this to access Pokémon reaction roles. See `Poke RR Settings`_."
    ``!punish <@user>``, "Use this to deduct 10 points from a user."
+   ``![raid-bosses|current-rotation|active-rotation|active-bosses]``, "Use this to get the list of the active bosses."
+   ``!raw-raid-bosses``, "Use this to get the raw list of the active bosses."   
    ``!reset-points <@user>``, "Use this to reset the amount of points from a user."
-   ``!rr <setting>``, "Use this to access reaction roles. See `RR Settings`_"
-   ``!server <setting>``, "Use this to access server settings. See `Server Settings`_"
-   ``!summon``, "Summon Nexus."
-   ``!support``, "This will give you the invite link to the support discord server of Nexus."
+   ``!rr <setting>``, "Use this to access reaction roles. See `RR Settings`_."
+   ``!server <setting>``, "Use this to access server settings. See `Server Settings`_."
    
 ```
 
@@ -85,7 +86,7 @@
    ``!server online-channel <channel>``, "Use this to set the channel in which you'll receive raids from other servers."
    ``!server raid-channel <channel>``, "Use this to set the channel in which raids will be posted. All other messages will be removed from this channel."
    ``!server setup-channel <channel>``, "Use this to set the channel in which Nexus will mention players when they try to create or join raids and they don't have permission to do so."
-   ``!server toggle <setting>``, "Use this to access toggle configuration."
+   ``!server toggle <setting>``, "Use this to access toggle configuration. See `Server Toggle Settings`_."
    
 ```
 
