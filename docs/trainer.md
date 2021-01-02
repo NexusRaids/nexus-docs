@@ -35,12 +35,14 @@
    :header: "Command", "Description"
    :widths: 5, 20
 
-   ``!change-profile``, "Use this to change your profile. You need to support Nexus to access this command, please visit the Donation page to learn more."
+   ``!change-profile``, "Use this to change your profile."
    ``!ign <@user>``, "Use this to retrieve someone's in-game name. If you give it no user, it will retrieve yours."
    ``!leaderboard``, "Use this to see the top 10 trainers who have joined and hosted raids, as well as the ones with more points."
    ``!level <@user>``, "Use this to retrieve someone's in-game level. If you give it no user, it will retrieve yours."
    ``!profile <@user>``, "Use this to see someone's profile. If you give it no user, it will retrieve yours."
    ``!search <ign>``, "Use this to search for the user who has that corresponding in-game name."
    ``!tc <@user>``, "Use this to retrieve someone's trainer code. If you give it no user, it will retrieve yours."
+
+.. Note:: You need to support Nexus to use the ``!change-profile`` command. If you would like to support Nexus please see :doc:`Donations<donation>` to learn more.
    
 ```
