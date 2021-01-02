@@ -21,7 +21,7 @@ from recommonmark.parser import CommonMarkParser
 
 # -- Project information -----------------------------------------------------
 
-project = 'Nexus'
+project = 'Nexus Raids'
 
 # -- General configuration ---------------------------------------------------
 
@@ -79,6 +79,12 @@ html_theme_options = {
     'logo_only': True,
     'display_version': False,
 }
+
+html_context = {
+    'css_files': [
+        '_static/theme_overrides.css',  # override wide tables in RTD theme
+        ],
+     }
 
 # -- Extension configuration -------------------------------------------------
 # At the bottom of conf.py
