@@ -9,7 +9,7 @@
    :header: "Command", "Description"
    :widths: 5, 20
 
-   ``!set profile``, "This will guide you through all of the `!set` commands you don't have set, one by one."
+   ``!set profile``, "This will guide you through all of the ``!set`` commands you don't have set, one by one."
    
 ```
 
