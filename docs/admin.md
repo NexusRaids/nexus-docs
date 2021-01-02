@@ -2,8 +2,6 @@
 
 > The following commands can only be preformed by users with the `nexus-moderators` role.
 
-
-
 ## Command Reference
 
 ```eval_rst
@@ -14,14 +12,12 @@
    ``!create <setting>``, "Use this to access create options. See `Create Settings`_."
    ``!delete <setting>``, "Use this to access delete options. See `Delete Settings`_."
    ``!poke-rr <setting>``, "Use this to access Pokémon reaction roles. See `Poke RR Settings`_."
-   ``!punish <@user>``, "Use this to deduct 10 points from a user."
+   ``!punish <@user>``, "Use this to deduct 10 points from a user. See `Point System`_"
    ``!reset-points <@user>``, "Use this to reset the amount of points from a user."
    ``!rr <setting>``, "Use this to access reaction roles. See `RR Settings`_."
    ``!server <setting>``, "Use this to access server settings. See `Server Settings`_."
 
 ```
-
-
 
 ### Create Settings
 
@@ -38,8 +34,6 @@
 
 ### Delete Settings
 
-
-
 ```eval_rst
 .. csv-table::
    :header: "Command", "Description"
@@ -52,8 +46,6 @@
    ``!delete role <arg> <verbose=True>``, "Use this to delete a role."
 
 ```
-
-
 
 ### Poke RR Settings
 
@@ -68,8 +60,6 @@
 
 ```
 
-
-
 ### RR Settings
 
 ```eval_rst
@@ -82,8 +72,6 @@
    ``!rr view``, "Use this to view all your reaction roles. There's a limit fo 50 per server."
 
 ```
-
-
 
 ### Server Settings
 
@@ -99,8 +87,6 @@
    ``!server toggle <setting>``, "Use this to access toggle configuration. See `Server Toggle Settings`_."
    
 ```
-
-
 
 #### Server Toggle Settings
 

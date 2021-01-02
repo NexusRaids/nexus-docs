@@ -30,17 +30,15 @@
    :header: "#", "Input", "Description"
    :widths: 2, 5, 18
 
-   "<1>", ``<pokemon>``, "Use this to set the Raid Boss."
-   "<2>", ``<time_left=45>``, "Use this to set the time left in raid (1-45)."
-   "<3>", ``<weather_boosted=no>``, "Use this to indicate the raid is weather boosted (yes/no)."
-   "<4>", ``<invites_limit=5>``, "Use this to set the invite limit (1-20)."
-   "<5>", ``<only_hosting=no>``, "Use this to set only hosting (yes/no)."
-   "<6>", ``<min_level=1>``, "Use this to set minimum Trainer level (1-50)."
-   "<7>", ``<rehost=no>``, "Use this to indicate the raid is a rehost (yes/no)."
+   ``<1>``, ``<pokemon>``, "Use this to set the Raid Boss."
+   ``<2>``, ``<time_left=45>``, "Use this to set the time left in raid (1-45)."
+   ``<3>``, ``<weather_boosted=no>``, "Use this to indicate the raid is weather boosted (yes/no)."
+   ``<4>``, ``<invites_limit=5>``, "Use this to set the invite limit (1-20)."
+   ``<5>``, ``<only_hosting=no>``, "Use this to set only hosting (yes/no)."
+   ``<6>``, ``<min_level=1>``, "Use this to set minimum Trainer level (1-50)."
+   ``<7>``, ``<rehost=no>``, "Use this to indicate the raid is a rehost (yes/no)."
 
 ```
-
-
 
 ### Screenshots
 
@@ -48,15 +46,11 @@
 >
 > <img src="_static/img/charizard-mega-x.png">
 
-
-
 ### Raid Boss Name
 
 > In the "raid-channel" setup for the community, Trainers can simply use a Raid Boss name to create a raid, and Nexus will walk through the steps necessary to start the raid.
 >
 > Example: `charizard-mega-x`
-
-
 
 ### Raid Lobby Commands
 
@@ -79,11 +73,9 @@
    ``!mention <message>``, "Use this to mention the trainers on your raid."
    ``!open <verbose=True>``, "Use this in a raid to open it."
    ``!rehost``, "Use this to rehost your raid. It will be posted again and won't let people that were in your previous raid join again."
-   ``!report <@user>``, "Use this to report behaviour of users on a raid. This will deduct 1 point from the user."
+   ``!report <@user>``, "Use this to report behaviour of users on a raid. This will deduct 1 point from the user. See `Point System`_"
 
 ```
-
-
 
 ## Other Commands
 
@@ -95,4 +87,35 @@
    ``![raid-bosses|current-rotation|active-rotation|active-bosses]``, "Use this to get the list of the active bosses."
    ``!raw-raid-bosses``, "Use this to get the raw list of the active bosses."
 
+```
+
+## Point System
+
+> Nexus uses a point system to reward active Trainers. Use `!leaderboard` or `!profile <@user>` to view point totals.
+
+```eval_rst
+.. csv-table::
+   :header: "Point", "Description"
+   :widths: 5, 20
+
+   "1", "Join a raid."
+   "-1", "Leave raid within the first 60 seconds."
+   "1", "Host a raid."
+   "-2", "End raid within the first 60 seconds."
+   "1", "Host use ``!go`` with invites."
+   "1", "Host use ``!go-live`` after 60 seconds."
+   "1", "Thank a Trainer inside the raid with ``@user <thank_you_message>`` (once per raid)."
+   "-1", "Use ``!report <@user>`` to notify ``nexus-moderators`` of a issue with a Trainer (once per raid)."
+   
+```
+
+> The following commands can only be preformed by users with the `nexus-moderators` role.
+
+```eval_rst
+.. csv-table::
+   :header: "Point", "Description"
+   :widths: 5, 20
+
+   "-10", "Use ``!punish <@user>`` deduct points from Trainers."
+   
 ```

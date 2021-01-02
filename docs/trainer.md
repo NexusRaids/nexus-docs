@@ -2,8 +2,6 @@
 
 > Trainer profiles in Nexus are shared across servers wherever the bot is installed allowing for a seamless experience in every community.
 
-
-
 ## Initial Setup
 
 ```eval_rst
@@ -14,8 +12,6 @@
    ``!set profile``, "This will guide you through all of the ``!set`` commands you don't have set, one by one."
    
 ```
-
-
 
 ## Updating
 
@@ -32,8 +28,6 @@
    
 ```
 
-
-
 ## Other
 
 ```eval_rst
@@ -43,6 +37,7 @@
 
    ``!change-profile``, "Use this to change your profile. You need to support Nexus to access this command, please visit the Donation page to learn more."
    ``!ign <@user>``, "Use this to retrieve someone's in-game name. If you give it no user, it will retrieve yours."
+   ``!leaderboard``, "Use this to see the top 10 trainers who have joined and hosted raids, as well as the ones with more points."
    ``!level <@user>``, "Use this to retrieve someone's in-game level. If you give it no user, it will retrieve yours."
    ``!profile <@user>``, "Use this to see someone's profile. If you give it no user, it will retrieve yours."
    ``!search <ign>``, "Use this to search for the user who has that corresponding in-game name."
