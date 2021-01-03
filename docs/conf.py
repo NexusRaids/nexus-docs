@@ -21,7 +21,7 @@ from recommonmark.parser import CommonMarkParser
 
 # -- Project information -----------------------------------------------------
 
-project = 'Nexus Raids'
+project = 'Nexus'
 
 # -- General configuration ---------------------------------------------------
 

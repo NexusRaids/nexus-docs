@@ -1,6 +1,6 @@
 # Donations
 
-> Nexus Raids is a free service, but to stay up with the costs of hosting the bot and the complex functionality that image recognition is, we put a limit to some functions.
+> Nexus is a free service, but to stay up with the costs of hosting the bot and the complex functionality that image recognition is, we put a limit to some functions.
 >
 > If you’re interested in supporting Nexus via a donation, please have a look at the following  monthly tiers:
 >
