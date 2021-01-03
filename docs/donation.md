@@ -6,6 +6,12 @@
 >
 
 ```eval_rst
+
+.. # define a hard line break for HTML
+.. |br| raw:: html
+
+   <br>
+
 .. csv-table::
    :header: "Supporter Level", "Rewards"
    :widths: 5, 20
@@ -16,4 +22,3 @@
    "Benefactor", "200 Screenshots. |br| Store 5 additional profiles via ``!change-profile``. |br| Create 200 reaction roles (requires ``nexus-moderators`` role)."
 
 ```
-
