@@ -27,4 +27,4 @@
 
 ```
 
-<a href="https://discord.gg/8PnNrEPhhe" target="_blank"><i class="fab fa-discord"></i>Nexus Support</a>
+<a class="myButton" href="https://discord.gg/8PnNrEPhhe" target="_blank">Nexus Support</a>
