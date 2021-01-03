@@ -91,7 +91,7 @@ html_context = {
 # At the bottom of conf.py
 def setup(app):
 	app.add_transform(AutoStructify)
-	app.add_js_file('https://use.fontawesome.com/6a11f6d7c9.js')
+	app.add_js_file('https://use.fontawesome.com/releases/v5.15.1/js/all.js', crossorigin='anonymous')
 	
 	
 	
