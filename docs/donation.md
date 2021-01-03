@@ -10,10 +10,10 @@
    :header: "Supporter Level", "Rewards"
    :widths: 5, 20
 
-   "Donor", "30 Screenshots; Store 1 additional profile via ``!change-profile``; Create 75 reaction roles (requires ``nexus-moderators`` role)"
-   "Supporter", "60 Screenshots; Store 2 additional profiles via ``!change-profile``; Create 100 reaction roles (requires ``nexus-moderators`` role)"
-   "Contributor", "100 Screenshots; Store 3 additional profiles via ``!change-profile``; Create 150 reaction roles (requires ``nexus-moderators`` role)"
-   "Benefactor", "200 Screenshots; Store 5 additional profiles via ``!change-profile``; Create 200 reaction roles (requires ``nexus-moderators`` role)"
+   "Donor", "30 Screenshots. |br| Store 1 additional profile via ``!change-profile``. |br| Create 75 reaction roles (requires ``nexus-moderators`` role)."
+   "Supporter", "60 Screenshots. |br| Store 2 additional profiles via ``!change-profile``. |br| Create 100 reaction roles (requires ``nexus-moderators`` role)."
+   "Contributor", "100 Screenshots. |br| Store 3 additional profiles via ``!change-profile``. |br| Create 150 reaction roles (requires ``nexus-moderators`` role)."
+   "Benefactor", "200 Screenshots. |br| Store 5 additional profiles via ``!change-profile``. |br| Create 200 reaction roles (requires ``nexus-moderators`` role)."
 
 ```
 
