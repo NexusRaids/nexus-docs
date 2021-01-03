@@ -27,6 +27,15 @@
 
 ```
 
-<a class="pure-button" href="https://discord.gg/8PnNrEPhhe">
-    <i class="fab fa-discord fa-lg"></i>Nexus Support
-</a>
+<div class="pure-g">
+    <div class="pure-u-1 pure-u-md-1-2">
+		<a class="pure-button pure-button-primary" href="https://discord.gg/8PnNrEPhhe">
+			<i class="fab fa-discord"></i>Nexus Support
+		</a>
+	</div>
+    <div class="pure-u-1 pure-u-md-1-2">
+		<a class="pure-button" href="https://discord.gg/8PnNrEPhhe">
+			<i class="fab fa-discord fa-lg"></i>Nexus Support
+		</a>
+	</div>
+</div>
