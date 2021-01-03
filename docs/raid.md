@@ -45,7 +45,7 @@
 > In the "raid-channel" setup for the community, Trainers can simply upload a screenshot of the Raid Boss to create a raid, and Nexus will walk through the steps necessary to start the raid.
 
 ```eval_rst
-.. Note:: Nexus has a 20 screenshot limit per month among all servers. Screenshots that are not able to be recognized do not count towards this limit. You will always be able to initiate a raid via the ``!raid`` command, even if you exceed the screenshot limit. Nexus will mention you in the setup channel if you run out of screenshots and react with a 🛑. If you would like to increase that limit please see :doc:`Donations<donation>` to learn more.
+.. Note:: Nexus has a 20 screenshot limit per month among all servers. Screenshots that are not able to be recognized do not count towards this limit. You will always be able to initiate a raid via the ``!raid`` command, even if you exceed the screenshot limit. Nexus will mention you in the "setup channel" if you run out of screenshots and react with a 🛑. If you would like to increase that limit please see :doc:`Donations<donation>` to learn more.
 
 ```
 
