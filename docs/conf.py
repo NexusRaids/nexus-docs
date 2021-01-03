@@ -82,7 +82,7 @@ html_theme_options = {
 
 html_context = {
     'css_files': [
-        '_static/theme_overrides.css',
+        '_static/theme_overrides.css?update',
         ],
      }
 

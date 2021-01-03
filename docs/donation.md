@@ -27,5 +27,6 @@
 
 ```
 
-<a href="something" class="button2">Button</a>
-<a href="something" class="button2">Very pretentious long button</a>
+<div class="button_cont" align="center"><a class="example_c" href="add-website-here" target="_blank" rel="nofollow noopener">Add Call to Action</a></div>
+
+<div class="button_cont" align="center"><a class="example_c" href="add-website-here" target="_blank" rel="nofollow noopener">Add Call to Action</a></div>
