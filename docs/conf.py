@@ -82,7 +82,7 @@ html_theme_options = {
 
 html_context = {
     'css_files': [
-        '_static/theme_overrides.css?update?v1',
+        '_static/theme_overrides.css?update?v2',
         ],
      }
 
@@ -90,6 +90,7 @@ html_context = {
 # -- Extension configuration -------------------------------------------------
 # At the bottom of conf.py
 def setup(app):
-    app.add_transform(AutoStructify)
+    app.add_transform(AutoStructify
+	app.add_js_file('https://use.fontawesome.com/6a11f6d7c9.js')
 	
 	

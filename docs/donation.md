@@ -27,6 +27,6 @@
 
 ```
 
-<div align="center"><a class="donate_button" href="https://discord.gg/8PnNrEPhhe" target="_blank">Nexus Support</a></div>
+<div align="center"><i class="fab fa-discord"></i><a class="donate_button" href="https://discord.gg/8PnNrEPhhe" target="_blank">Nexus Support</a></div>
 
-<div align="center"><a class="donate_button" href="https://donatebot.io/checkout/770303285550645278" target="_blank">Donate</a></div>
+<div align="center"><i class="fas fa-donate"></i><a class="donate_button" href="https://donatebot.io/checkout/770303285550645278" target="_blank">Donate</a></div>

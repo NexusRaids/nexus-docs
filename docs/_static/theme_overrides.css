@@ -14,15 +14,15 @@
 
 .donate_button {
 	text-transform: uppercase;
+	color: #ffffff !important;
 	text-decoration: none;
 	padding: 20px;
-	border: 2px solid #343131 !important;
 	display: inline-block;
 	margin-bottom: 20px;
+	background: #2980b9;
+	width: 300px;
 }
 
 .donate_button:hover {
-	color: #ffffff !important;
-	background: #2980b9 ;
-	border-color: #2980b9  !important;
+	background: #343131;
 }
