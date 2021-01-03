@@ -82,7 +82,7 @@ html_theme_options = {
 
 html_context = {
     'css_files': [
-        '_static/theme_overrides.css',  # override wide tables in RTD theme
+        '_static/theme_overrides.css', 'https://unpkg.com/purecss@2.0.3/build/pure-min.css'
         ],
      }
 
