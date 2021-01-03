@@ -78,6 +78,7 @@ html_logo = "_static/img/nexus.png"
 html_theme_options = {
     'logo_only': True,
     'display_version': False,
+	'extra_scripts': ['https://use.fontawesome.com/6a11f6d7c9.js']
 }
 
 html_context = {
