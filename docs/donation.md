@@ -26,3 +26,7 @@
    "Benefactor", "|md| 200 Screenshots. |br| |md| Store 5 additional profiles via ``!change-profile``. |br| |md| Create 200 reaction roles (requires ``nexus-moderators`` role)."
 
 ```
+
+<a class="pure-button" href="https://discord.gg/8PnNrEPhhe">
+    <i class="fab fa-discord fa-lg"></i>Nexus Support
+</a>

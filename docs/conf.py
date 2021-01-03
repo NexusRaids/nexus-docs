@@ -77,8 +77,7 @@ html_static_path = ['_static']
 html_logo = "_static/img/nexus.png"
 html_theme_options = {
     'logo_only': True,
-    'display_version': False,
-	'extra_scripts': ['https://use.fontawesome.com/6a11f6d7c9.js']
+    'display_version': False
 }
 
 html_context = {
@@ -87,9 +86,11 @@ html_context = {
         ],
      }
 
+	
 # -- Extension configuration -------------------------------------------------
 # At the bottom of conf.py
 def setup(app):
     app.add_transform(AutoStructify)
+	app.add_js_file("https://use.fontawesome.com/6a11f6d7c9.js")
 
 	
