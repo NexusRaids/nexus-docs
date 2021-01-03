@@ -82,7 +82,7 @@ html_theme_options = {
 
 html_context = {
     'css_files': [
-        '_static/theme_overrides.css', 'https://unpkg.com/purecss@2.0.3/build/pure-min.css'
+        '_static/theme_overrides.css', 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css'
         ],
      }
 
