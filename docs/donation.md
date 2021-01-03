@@ -27,4 +27,5 @@
 
 ```
 
-<a class="myButton" href="https://discord.gg/8PnNrEPhhe" target="_blank">Nexus Support</a>
+<a href="something" class="button2">Button</a>
+<a href="something" class="button2">Very pretentious long button</a>
