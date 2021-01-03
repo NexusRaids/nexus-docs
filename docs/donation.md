@@ -27,6 +27,6 @@
 
 ```
 
-<div class="button_cont" align="center"><a class="example_c" href="add-website-here" target="_blank" rel="nofollow noopener">Add Call to Action</a></div>
+<div align="center"><a class="donate_button" href="https://discord.gg/8PnNrEPhhe" target="_blank">Nexus Support</a></div>
 
-<div class="button_cont" align="center"><a class="example_c" href="add-website-here" target="_blank" rel="nofollow noopener">Add Call to Action</a></div>
+<div align="center"><a class="donate_button" href="https://donatebot.io/checkout/770303285550645278" target="_blank">Donate</a></div>

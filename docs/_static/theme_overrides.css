@@ -12,20 +12,17 @@
    }
 }
 
-.example_c {
-color: #494949 !important;
-text-transform: uppercase;
-text-decoration: none;
-background: #ffffff;
-padding: 20px;
-border: 4px solid #494949 !important;
-display: inline-block;
-transition: all 0.4s ease 0s;
+.donate_button {
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 20px;
+	border: 2px solid #343131 !important;
+	display: inline-block;
+	margin-bottom: 20px;
 }
 
-.example_c:hover {
-color: #ffffff !important;
-background: #f6b93b;
-border-color: #f6b93b !important;
-transition: all 0.4s ease 0s;
+.donate_button:hover {
+	color: #ffffff !important;
+	background: #2980b9 ;
+	border-color: #2980b9  !important;
 }
