@@ -90,8 +90,8 @@ html_context = {
 # -- Extension configuration -------------------------------------------------
 # At the bottom of conf.py
 def setup(app):
-    app.add_js_file("https://use.fontawesome.com/6a11f6d7c9.js")
 	app.add_transform(AutoStructify)
+	app.add_js_file(None, body='https://use.fontawesome.com/6a11f6d7c9.js')
 	
-
+	
 	
