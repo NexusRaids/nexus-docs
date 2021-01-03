@@ -82,7 +82,7 @@ html_theme_options = {
 
 html_context = {
     'css_files': [
-        '_static/theme_overrides.css', 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css'
+        '_static/theme_overrides.css'
         ],
      }
 
@@ -91,7 +91,6 @@ html_context = {
 # At the bottom of conf.py
 def setup(app):
 	app.add_transform(AutoStructify)
-	app.add_js_file('https://use.fontawesome.com/releases/v5.15.1/js/all.js', crossorigin='anonymous')
-	
+    app.add_js_file('https://use.fontawesome.com/6a11f6d7c9.js')	
 	
 	
