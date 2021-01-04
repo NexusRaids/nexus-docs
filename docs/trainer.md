@@ -20,7 +20,7 @@
    :header: "Command", "Description"
    :widths: 5, 20
 
-   ``!set country <country>``, "Use this to set your country. You can give this the name of the country or the country code. (eg. United States or US)."
+   ``!set country <country>``, "Use this to set your country. You can give this the name of the country or the country code. (e.g. United States or US)."
    ``!set ign <ign>``, "Use this to set your in-game name."
    ``!set [level|lvl] <level>``, "Use this to set your level. You can set it to a maximum of 50."
    ``!set [tc|fc|trainer-code|friend-code] <trainer_code>``, "Use this to set your trainer code."
