@@ -1,9 +1,6 @@
-/* override table width restrictions */
 @media screen and (min-width: 767px) {
 
    .wy-table-responsive table td {
-      /* !important prevents the common CSS stylesheets from overriding
-         this as on RTD they are loaded after this stylesheet */
       white-space: normal !important;
    }
 
@@ -12,11 +9,11 @@
    }
 }
 
-@media screen and (min-width: 1100px)
-.wy-nav-content {
-    margin: 0;
-    background: #fcfcfc;
-    max-width: inherit !important;
+@media screen and (min-width: 1100px) {
+	
+	.wy-nav-content {
+		max-width: inherit !important;
+	}
 }
 
 .donate_button {
