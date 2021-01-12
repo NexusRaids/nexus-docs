@@ -63,7 +63,7 @@
 
 ```
 
-### Pokebattler Raid Network
+### Pokebattler Raid Network Settings
 
 ```eval_rst
 .. csv-table::
