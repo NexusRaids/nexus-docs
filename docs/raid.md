@@ -65,20 +65,25 @@
    :widths: 5, 20
 
    ``!add``, "Use this to add someone to a raid, even if that person is not in the discord server."
+   ``!boss <pokemon>``, "Use this in a raid to change the raid boss you are hosting."
    ``!bye``, "Use this to leave a raid. If you are the Host the raid will end."
    ``!close <verbose=True>``, "Use this in a raid to close it, no one else can join the raid."
    ``!end``, "Use this to end a raid."
    ``![go|start]``, "Use this to start your raid. Your raid will be closed, and all members will be pinged to let them know you've entered the lobby. You'll also be given a search string of trainers you need to invite."
    ``![go-live|nexus]``, "Use this to get your raid live in other servers where Nexus is in."
-   ``!invites``, "This will give you a search string of the trainers you need to invite to a raid. ``!go`` will give you this list as well."
+   ``!invites``, "This will give you a search string of the trainers you need to invite to a raid."
    ``![invites-limit|limit] <amount=5>``, "Use this in a raid to limit the amount of players you are inviting. You can reset the limit by running the command with no argument."
    ``!kick <@user|trainer>``, "Use this to kick someone from a raid."
    ``!kick-all``, "Use this to kick everyone from a raid."
    ``!members``, "Use this to get a list of the members in a raid that has more information about them."
    ``!mention <message>``, "Use this to mention the trainers on your raid."
+   ``!min-level <level>``, "Use this in a raid to change the minimum level required to enter the raid."
+   ``!only-hosting <yes/no>``, "Use this in a raid to change if you are only hosting the raid and not joining, or if you are joining with the invitees."
    ``!open <verbose=True>``, "Use this in a raid to open it."
    ``!rehost``, "Use this to rehost your raid. It will be posted again and won't let people that were in your previous raid join again."
    ``!report <@user>``, "Use this to report behaviour of users on a raid. This will deduct 1 point from the user. See `Point System`_"
+   ``!time-left <minutes>``, "Use this in a raid to see how much time is left on the raid. If you are the host, you can give this command the amount of minutes that are left on your raid to update it."
+   ``!weather-boosted <yes/no>``, "Use this in a raid to change if the raid is weather boosted or not."
 
 ```
 
@@ -117,6 +122,9 @@
    "+1", "Thank a Trainer inside the raid with ``@user <thank_you_message>`` (once per raid)."
    "-1", "Use ``!report <@user>`` to notify ``nexus-moderators`` of a issue with a Trainer (once per raid)."
    
+
+.. Warning:: Users with negative points will not be able to join or host raids.
+
 ```
 
 > The following command can only be preformed by users with the `nexus-moderators` role.

@@ -12,6 +12,7 @@
    ``!create <setting>``, "Use this to access create options. See `Create Settings`_."
    ``!delete <setting>``, "Use this to access delete options. See `Delete Settings`_."
    ``!poke-rr <setting>``, "Use this to access Pokémon reaction roles. See `Poke RR Settings`_."
+   ``![pokebattler-raid-network|pokebattler|prn] <setting>``, "Use this to acess settings for the Pokebattler Raid Network. See `Pokebattler Raid Network Settings`_."
    ``!punish <@user>``, "Use this to deduct 10 points from a user. See :ref:`Point System<point-system>`."
    ``!reset-points <@user>``, "Use this to reset the amount of points from a user."
    ``!rr <setting>``, "Use this to access reaction roles. See `RR Settings`_."
@@ -59,6 +60,18 @@
    ``!poke-rr create <channel> <pokemon...>``, "Use this to create a reaction role of the Pokémon you input. This will create both a normal reaction role and a weather boosted reaction role, along with all roles."
    ``!poke-rr global <channel> <tier=all>``, "Use this to create a reaction role of the Pokémon currently in raids. Tiers: ``<mega|5|3|1>``"
    ``!poke-rr preview <pokemon...>``, "Use this to preview the reaction role for the Pokémon you input."
+
+```
+
+### Pokebattler Raid Network
+
+```eval_rst
+.. csv-table::
+   :header: "Command", "Description"
+   :widths: 5, 20
+
+   ``!pokebattler-raid-network permanent-invite <permanent_invite_url>``, "Use this to set a permanent invite for this server on the Pokebattler Raid Network."
+   ``!pokebattler-raid-network toggle``, "Use this to turn on/off the pokebattler raid network in your discord server"
 
 ```
 
