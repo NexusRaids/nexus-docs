@@ -45,4 +45,4 @@ Setup Profiles
    
 .. |invite_link| raw:: html
 
-   <a href="https://discord.com/oauth2/authorize?client_id=761036478783422484&permissions=1342696528&scope=bot" target="_blank">[Invite Bot]</a>
+   <a href="https://discord.com/api/oauth2/authorize?client_id=761036478783422484&permissions=2013785169&scope=bot" target="_blank">[Invite Bot]</a>
