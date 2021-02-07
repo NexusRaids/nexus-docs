@@ -1,2 +1,2 @@
 # nexus-docs
-Documentation for the Nexus
+Documentation for Nexus
