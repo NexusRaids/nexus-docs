@@ -81,7 +81,7 @@ git checkout -b gh-pages
 touch .nojekyll
 
 # add CNAME for GitHub pages custom domain
-echo 'docs.nexusraids.com' > CNAME
+echo 'docs.nexusraidbot.com' > CNAME
  
 # copy the resulting html pages built from sphinx above to our new git repo
 git add .
