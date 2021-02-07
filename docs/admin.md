@@ -5,6 +5,7 @@
 ## Command Reference
 
 ```eval_rst
+
 .. csv-table::
    :header: "Command", "Description"
    :widths: 5, 20
@@ -25,6 +26,7 @@
 ### Create Settings
 
 ```eval_rst
+
 .. csv-table::
    :header: "Command", "Description"
    :widths: 5, 20
@@ -38,6 +40,7 @@
 ### Delete Settings
 
 ```eval_rst
+
 .. csv-table::
    :header: "Command", "Description"
    :widths: 5, 20
@@ -53,6 +56,7 @@
 ### Poke RR Settings
 
 ```eval_rst
+
 .. csv-table::
    :header: "Command", "Description"
    :widths: 5, 20
@@ -66,6 +70,7 @@
 ### Pokebattler Raid Network Settings
 
 ```eval_rst
+
 .. csv-table::
    :header: "Command", "Description"
    :widths: 5, 20
@@ -78,6 +83,7 @@
 ### RR Settings
 
 ```eval_rst
+
 .. csv-table::
    :header: "Command", "Description"
    :widths: 5, 20
@@ -91,6 +97,7 @@
 ### Server Settings
 
 ```eval_rst
+
 .. csv-table::
    :header: "Command", "Description"
    :widths: 5, 20
@@ -106,6 +113,7 @@
 #### Server Toggle Settings
 
 ```eval_rst
+
 .. csv-table::
    :header: "Command", "Description"
    :widths: 5, 20

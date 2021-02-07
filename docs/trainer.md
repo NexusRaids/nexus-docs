@@ -5,6 +5,7 @@
 ## Initial Setup
 
 ```eval_rst
+
 .. csv-table::
    :header: "Command", "Description"
    :widths: 5, 20
@@ -16,6 +17,7 @@
 ## Updating
 
 ```eval_rst
+
 .. csv-table::
    :header: "Command", "Description"
    :widths: 5, 20
@@ -31,6 +33,7 @@
 ## Other
 
 ```eval_rst
+
 .. csv-table::
    :header: "Command", "Description"
    :widths: 5, 20

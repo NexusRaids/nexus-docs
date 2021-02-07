@@ -30,6 +30,7 @@ project = 'Nexus'
 # ones.
 extensions = [
 	'sphinx.ext.imgmath',
+	'recommonmark',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -41,7 +42,11 @@ source_parsers = {'.md': CommonMarkParser}
 # You can specify multiple suffix as a list of string:
 #
 # source_suffix = ['.rst', '.md']
-source_suffix = ['.rst', '.md']
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.txt': 'markdown',
+    '.md': 'markdown',
+}
 
 # The master toctree document.
 master_doc = 'index'
@@ -85,6 +90,8 @@ html_context = {
         '_static/theme_overrides.css?update?v5',
         ],
      }
+	 
+html_show_sourcelink = False
 
 	
 # -- Extension configuration -------------------------------------------------

@@ -15,6 +15,7 @@
 > The `!raid` command in Nexus is the primary method for Host to create raids and can be used in any channel. It can be used simply as `!r` or as a full meal deal. All command `<inputs>` are optional but must be used in order otherwise Nexus will give an error. 
 
 ```eval_rst
+
 .. csv-table::
    :header: "Command", "Description"
    :widths: 5, 20
@@ -26,6 +27,7 @@
 #### Raid Command Inputs
 
 ```eval_rst
+
 .. csv-table::
    :header: "#", "Input", "Description"
    :widths: 2, 5, 18
@@ -45,6 +47,7 @@
 > In the "raid-channel" setup for the community, Trainers can simply upload a screenshot of the Raid Boss to create a raid, and Nexus will walk through the steps necessary to start the raid.
 
 ```eval_rst
+
 .. Note:: Nexus has a 20 screenshot limit per month among all servers. Screenshots that are not able to be recognized do not count towards this limit. You will always be able to initiate a raid via the ``!raid`` command, even if you exceed the screenshot limit. Nexus will mention you in the "setup channel" if you run out of screenshots and react with a 🛑. If you would like to increase that limit please see :doc:`Donations<donation>` to learn more.
 
 ```
@@ -60,6 +63,7 @@
 ### Raid Lobby Commands
 
 ```eval_rst
+
 .. csv-table::
    :header: "Command", "Description"
    :widths: 5, 20
@@ -90,6 +94,7 @@
 ## Other Commands
 
 ```eval_rst
+
 .. csv-table::
    :header: "Command", "Description"
    :widths: 5, 20
@@ -100,6 +105,7 @@
 ```
 
 ```eval_rst
+
 .. _point-system:
 
 ```
@@ -109,6 +115,7 @@
 > Nexus uses a point system to reward active Trainers on a per server basis. Use `!leaderboard` or `!profile <@user>` to view point totals.
 
 ```eval_rst
+
 .. csv-table::
    :header: "Point", "Description"
    :widths: 2, 23
@@ -130,6 +137,7 @@
 > The following command can only be preformed by users with the `nexus-moderators` role.
 
 ```eval_rst
+
 .. csv-table::
    :header: "Point", "Description"
    :widths: 2, 23
