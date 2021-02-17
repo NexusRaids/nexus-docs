@@ -1,14 +1,4 @@
-# Raid Guide
-
-## Joining Raids
-
-> In the "raid-channel" setup for the community, Trainers can join raids by clicking the "raid pass", and Nexus will prompt the Trainer to join the raid lobby.
->
-> <img src="_static/img/join.png?update">
-
-
-
-## Hosting Raids
+# Hosting Raids
 
 ### Raid Command
 
@@ -17,14 +7,14 @@
 ```eval_rst
 
 .. csv-table::
-   :header: "Command", "Description"
+   :header: "Command", "Options / Flags"
    :widths: 5, 20
 
-   ``![raid|r] <1> <2> <3> <4> <5> <6> <7>``, "Use this to create a raid. No input is required, you can just run ``!raid``."
+   ``![raid|r]``, "``<1> <2> <flags>``"
 
 ```
 
-#### Raid Command Inputs
+#### Raid Command Inputs/Flags
 
 ```eval_rst
 
@@ -34,11 +24,23 @@
 
    ``<1>``, ``<pokemon>``, "Use this to set the Raid Boss."
    ``<2>``, ``<time_left=45>``, "Use this to set the time left in raid (1-45)."
-   ``<3>``, ``<weather_boosted=no>``, "Use this to indicate the raid is weather boosted (yes/no)."
-   ``<4>``, ``<invites_limit=5>``, "Use this to set the invite limit (1-20)."
-   ``<5>``, ``<only_hosting=no>``, "Use this to set only hosting (yes/no)."
-   ``<6>``, ``<min_level=1>``, "Use this to set minimum Trainer level (1-50)."
-   ``<7>``, ``<rehost=no>``, "Use this to indicate the raid is a rehost (yes/no)."
+
+.. csv-table::
+   :header: "Flag", "Possible Values", "Description"
+   :widths: 2, 5, 18
+
+   ``weather-boosted``, ``true/false``, "Use this to indicate the raid is weather boosted"
+   ``invites-limit``, ``0-10``, "Use this to set the invite limit"
+   ``only-hosting``, ``true/false``, "Use this to set only hosting"
+   ``min_level``, ``1-50``, "Use this to set minimum Trainer level."
+   ``train``, ``1+``, "Use this to set how many times the will advance. See `Raid Train`_."
+   ``rehost``, ``true/false``, "Use this to indicate the raid is a rehost."
+   
+.. Note:: You can input the name of the flag followed by its value (flag:value), you can either separate flags with a space or with quotes ("flag: value" flag:value), and for flags that are either true or false, by just mentioning the flag the true value will be assumed ("weather-boosted" instead of "weather-boosted:true").
+
+   All flags have its corresponding command, and aliases can be used as well. You'll also skip the raid setup if you input at least one flag.
+
+   You can input all the flags you want, but you can also just input the values in the following order (you don't need to input all of them): [weather-boosted] [invites-limit] [only-hosting] [minimum-level] [train] [rehost]
 
 ```
 
@@ -48,11 +50,11 @@
 
 ```eval_rst
 
-.. Note:: Nexus has a 20 screenshot limit per month among all servers. Screenshots that are not able to be recognized do not count towards this limit. You will always be able to initiate a raid via the ``!raid`` command, even if you exceed the screenshot limit. Nexus will mention you in the "setup channel" if you run out of screenshots and react with a 🛑. If you would like to increase that limit please see :doc:`Donations<donation>` to learn more.
+.. Note:: Nexus has a 20 screenshot limit per month among all servers. Screenshots that are not able to be recognized do not count towards this limit. You will always be able to initiate a raid via the ``!raid`` command, even if you exceed the screenshot limit. Nexus will mention you in the "setup channel" if you run out of screenshots and react with a 🛑. If you would like to increase that limit please see :doc:`Donations<../donation>` to learn more.
 
 ```
 
-> <img src="_static/img/charizard-mega-x.png">
+> <img src="../_static/img/charizard-mega-x.png">
 
 ### Raid Boss Name
 
@@ -69,6 +71,7 @@
    :widths: 5, 20
 
    ``!add``, "Use this to add someone to a raid, even if that person is not in the discord server."
+   ``!backout``, "Use this to notify trainers to back out of the lobby"
    ``!boss <pokemon>``, "Use this in a raid to change the raid boss you are hosting."
    ``!bye``, "Use this to leave a raid. If you are the Host the raid will end."
    ``!close <verbose=True>``, "Use this in a raid to close it, no one else can join the raid."
@@ -79,19 +82,21 @@
    ``![invites-limit|limit] <amount=5>``, "Use this in a raid to limit the amount of players you are inviting. You can reset the limit by running the command with no argument."
    ``!kick <@user|trainer>``, "Use this to kick someone from a raid."
    ``!kick-all``, "Use this to kick everyone from a raid."
+   ``!member <@user|trainer>``, "Use this in a raid to get information from the user you input."
    ``!members``, "Use this to get a list of the members in a raid that has more information about them."
    ``!mention <message>``, "Use this to mention the trainers on your raid."
    ``!min-level <level>``, "Use this in a raid to change the minimum level required to enter the raid."
    ``!only-hosting <yes/no>``, "Use this in a raid to change if you are only hosting the raid and not joining, or if you are joining with the invitees."
    ``!open <verbose=True>``, "Use this in a raid to open it."
    ``!rehost``, "Use this to rehost your raid. It will be posted again and won't let people that were in your previous raid join again."
-   ``!report <@user>``, "Use this to report behaviour of users on a raid. This will deduct 1 point from the user. See `Point System`_"
+   ``!report <@user>``, "Use this to report behaviour of users on a raid. This will deduct 1 point from the user. :doc:`Point System<points>`"
+   ``!reset-ready``, "Use this in a raid to reset the ready status from everyone."
    ``!time-left <minutes>``, "Use this in a raid to see how much time is left on the raid. If you are the host, you can give this command the amount of minutes that are left on your raid to update it."
    ``!weather-boosted <yes/no>``, "Use this in a raid to change if the raid is weather boosted or not."
 
 ```
 
-## Other Commands
+### Raid Train
 
 ```eval_rst
 
@@ -99,49 +104,7 @@
    :header: "Command", "Description"
    :widths: 5, 20
 
-   ``![raid-bosses|current-rotation|active-rotation|active-bosses]``, "Use this to get the list of the active bosses."
-   ``!raw-raid-bosses``, "Use this to get the raw list of the active bosses."
+   ``!advance``, "Use this in a raid train to advance to the next raid. This will decrease the amount of raids by 1."
+   ``!train <amount>``, "Use this in a raid to update the amount of bosses you are raiding. Normal raids are trains of one raid."
 
-```
-
-```eval_rst
-
-.. _point-system:
-
-```
-
-## Point System
-
-> Nexus uses a point system to reward active Trainers on a per server basis. Use `!leaderboard` or `!profile <@user>` to view point totals.
-
-```eval_rst
-
-.. csv-table::
-   :header: "Point", "Description"
-   :widths: 2, 23
-
-   "+1", "Join a raid."
-   "-1", "Leave raid within the first 60 seconds."
-   "+1", "Host a raid."
-   "-2", "End raid within the first 60 seconds."
-   "+1", "Host use ``!go`` with invites."
-   "+1", "Host use ``!go-live`` after 60 seconds."
-   "+1", "Thank a Trainer inside the raid with ``@user <thank_you_message>`` (once per raid)."
-   "-1", "Use ``!report <@user>`` to notify ``nexus-moderators`` of a issue with a Trainer (once per raid)."
-   
-
-.. Warning:: Users with negative points will not be able to join or host raids.
-
-```
-
-> The following command can only be preformed by users with the `nexus-moderators` role.
-
-```eval_rst
-
-.. csv-table::
-   :header: "Point", "Description"
-   :widths: 2, 23
-
-   "-10", "Use ``!punish <@user>`` deduct points from Trainers."
-   
 ```

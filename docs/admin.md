@@ -12,9 +12,11 @@
 
    ``!create <setting>``, "Use this to access create options. See `Create Settings`_."
    ``!delete <setting>``, "Use this to access delete options. See `Delete Settings`_."
+   ``!global-ban <user_id>``, "Use this to completely ban someone from creating raids and joining raids in your server. This works on cross-server raids as well. You need to pass as an argument the id of the user."
+   ``!global-unban <user_id>``, "Use this to unban that has been globally banned before. You need to pass as an argument the id of the user."
    ``!poke-rr <setting>``, "Use this to access Pokémon reaction roles. See `Poke RR Settings`_."
    ``![pokebattler-raid-network|pokebattler|prn] <setting>``, "Use this to acess settings for the Pokebattler Raid Network. See `Pokebattler Raid Network Settings`_."
-   ``!punish <@user>``, "Use this to deduct 10 points from a user. See :ref:`Point System<point-system>`."
+   ``!punish <@user>``, "Use this to deduct 10 points from a user. See :doc:`Point System<raid-guide/points>`."
    ``!reset-points <@user>``, "Use this to reset the amount of points from a user."
    ``!rr <setting>``, "Use this to access reaction roles. See `RR Settings`_."
    ``!server <setting>``, "Use this to access server settings. See `Server Settings`_."
@@ -102,6 +104,7 @@
    :header: "Command", "Description"
    :widths: 5, 20
 
+   ``!server change-nicknames``, "Use this to change the nicknames of every member in your server to their corresponding in-game name (only if set)."
    ``!server change-prefix <prefix>``, "Use this to change the prefix on your server."
    ``!server online-channel <channel>``, "Use this to set the channel in which you'll receive raids from other servers."
    ``!server raid-channel <channel>``, "Use this to set the channel in which raids will be posted. All other messages will be removed from this channel."
@@ -118,6 +121,8 @@
    :header: "Command", "Description"
    :widths: 5, 20
 
+   ``!server toggle force-nickname``, "Use this to toggle on/off forcing nicknames of members of your server to be their respective in-game trainer names."
+   ``!server toggle join-multiple-raids``, "Use this to toggle on/off allowing trainers to join more than one raid at the same time in your server."
    ``!server toggle public-raids``, "Use this to toggle off/on public raids in your server. Anyone can interact with the raids if turned on."
    ``!server toggle unfriend``, "Use this to toggle off/on the unfriend the host message when a raid ends. This doesn't apply to raids from other servers."
    

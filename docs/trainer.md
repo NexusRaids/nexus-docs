@@ -27,7 +27,24 @@
    ``!set [level|lvl] <level>``, "Use this to set your level. You can set it to a maximum of 50."
    ``!set [tc|fc|trainer-code|friend-code] <trainer_code>``, "Use this to set your trainer code."
    ``!set team <team>``, "Use this to set your team. The available teams are mystic, valor and instinct."
+ 
+```
+
+## Trading
+
+```eval_rst
+
+.. csv-table::
+   :header: "Command", "Description"
+   :widths: 5, 20
+
+   ``!set location  <latitude> <longitude>``, "Use this to set your location for trading purposes. Your location can't be seen by anyone. You need to input your latitude and longitude."
+   ``!trade``, "Use this to search for trainers on the discord server which are in the valid trading range. If there are no bonuses (40km), this will search for trainers within a 1km radius."
+
+.. Important:: We recommended you pick a local landmark close to you for the coordinates entered since it will only be used to calculate a distance.
    
+   Nexus respects your privacy and does not share your personal information with other people.
+ 
 ```
 
 ## Other
@@ -43,9 +60,10 @@
    ``!leaderboard``, "Use this to see the top 10 trainers who have joined and hosted raids, as well as the ones with more points."
    ``!level <@user>``, "Use this to retrieve someone's in-game level. If you give it no user, it will retrieve yours."
    ``!profile <@user>``, "Use this to see someone's profile. If you give it no user, it will retrieve yours."
+   ``!save-profile``, "Use this to save your current profile."
    ``!search <ign>``, "Use this to search for the user who has that corresponding in-game name."
    ``!tc <@user>``, "Use this to retrieve someone's trainer code. If you give it no user, it will retrieve yours."
 
-.. Note:: You need to support Nexus to use the ``!change-profile`` command. If you would like to support Nexus please see :doc:`Donations<donation>` to learn more.
+.. Note:: You need to support Nexus to use the ``!change-profile`` and ``!save-profile`` commands. If you would like to support Nexus please see :doc:`Donations<donation>` to learn more.
    
 ```

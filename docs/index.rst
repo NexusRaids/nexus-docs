@@ -38,7 +38,7 @@ Setup Profiles
 
    command
    trainer
-   raid
+   raid-guide/index
    admin
    other
    donation
