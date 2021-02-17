@@ -31,3 +31,20 @@
 .donate_button:hover {
 	background: #343131;
 }
+
+.invite_button {
+	text-transform: uppercase;
+	color: #ffffff !important;
+	text-decoration: none;
+	padding: 16px;
+	display: inline-block;
+	background: #2980b9;
+	width: 350px;
+	border-radius: 0.5rem;
+	text-align: center;
+}
+
+.invite_button:hover {
+	background: #343131;
+}
+
