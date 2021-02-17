@@ -33,7 +33,7 @@
    ``invites-limit``, ``0-10``, "Use this to set the invite limit"
    ``only-hosting``, ``true/false``, "Use this to set only hosting"
    ``min_level``, ``1-50``, "Use this to set minimum Trainer level."
-   ``train``, ``1+``, "Use this to set how many times the will advance. See `Raid Train`_."
+   ``train``, ``1+``, "Use this to set how many times the raid will advance. See `Raid Train`_."
    ``rehost``, ``true/false``, "Use this to indicate the raid is a rehost."
    
 .. Note:: You can input the name of the flag followed by its value (flag:value), you can either separate flags with a space or with quotes ("flag: value" flag:value), and for flags that are either true or false, by just mentioning the flag the true value will be assumed ("weather-boosted" instead of "weather-boosted:true").
