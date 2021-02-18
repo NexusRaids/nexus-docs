@@ -36,7 +36,7 @@ Setup Profiles
    command
    trainer
    raid-guide/index
-   trade
+   trade-guide/index
    admin
    other
    donation

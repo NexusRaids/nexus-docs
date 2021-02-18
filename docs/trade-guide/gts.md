@@ -1,6 +1,6 @@
 # Global Trading System
 
-> Global Trading System (GTS) is a trade manager that allows Trainers to search for trades with other users within the Nexus bot network. This works by checking in a radius from the location set in your Nexus profile similar to the basic trade search on a single Discord server except it returns offers with Pokémon requested.
+> The Global Trading System (GTS) is a trade manager that allows Trainers to coordinate trades across the entire Nexus bot network. Trainers with a <a href="trade.html#command-reference">registered location</a> can request a list of trades that fall within the current trading distance in Pokémon Go. Trade requests include offered and wanted Pokémon also facilitates contact and acceptance of the request.
 >
 
 ## Command Reference
@@ -32,6 +32,6 @@
    ``!global-trading-system submit <offer_pokemon> <pokemon_wanted>``, "Use this submit a trade on the global trading system. Your discord tag will will be visible to trainers that accept your trade so you can coordinate with each other."
    ``!global-trading-system success <id>``, "If you succeed in trading, you can run this command to mark your trade as done. You can get the trade id by checking your trading offers."
 
-.. Note:: The Global Trading System gives users 1 active spot for trading. If users wish to have more trading spots please consider supporting Nexus. See :doc:`Donations<donation>` to learn more.
+.. Note:: The Global Trading System gives users 1 active spot for trading. If users wish to have more trading spots please consider supporting Nexus. See :doc:`Donations<../donation>` to learn more.
    
 ```
