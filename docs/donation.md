@@ -20,10 +20,10 @@
    :header: "Supporter Level (USD)", "Rewards"
    :widths: 5, 20
    
-   "Donor ($1/mo)", "|md| 30 Screenshots. |br| |md| Store 1 additional profile via ``!change-profile``. |br| |md| Create 75 reaction roles (requires ``nexus-moderators`` role)."
-   "Supporter ($2/mo)", "|md| 60 Screenshots. |br| |md| Store 2 additional profiles via ``!change-profile``. |br| |md| Create 100 reaction roles (requires ``nexus-moderators`` role)."
-   "Contributor ($5/mo)", "|md| 100 Screenshots. |br| |md| Store 3 additional profiles via ``!change-profile``. |br| |md| Create 150 reaction roles (requires ``nexus-moderators`` role)."
-   "Benefactor ($10/mo)", "|md| 200 Screenshots. |br| |md| Store 5 additional profiles via ``!change-profile``. |br| |md| Create 200 reaction roles (requires ``nexus-moderators`` role)."
+   "Donor ($1/mo)", "|md| 30 Screenshots. |br| |md| Store 1 additional profile via ``!change-profile``. |br| |md| Gives you 3 trading spots via ``!global-trading-system``. |br| |md| Create 75 reaction roles (requires ``nexus-moderators`` role)."
+   "Supporter ($2/mo)", "|md| 60 Screenshots. |br| |md| Store 2 additional profiles via ``!change-profile``. |br| |md| Gives you 5 trading spots via ``!global-trading-system``. |br| |md| Create 100 reaction roles (requires ``nexus-moderators`` role)."
+   "Contributor ($5/mo)", "|md| 100 Screenshots. |br| |md| Store 3 additional profiles via ``!change-profile``. |br| |md| Gives you 7 trading spots via ``!global-trading-system``. |br| |md| Create 150 reaction roles (requires ``nexus-moderators`` role)."
+   "Benefactor ($10/mo)", "|md| 200 Screenshots. |br| |md| Store 5 additional profiles via ``!change-profile``. |br| |md| Gives you 10 trading spots via ``!global-trading-system``. |br| |md| Create 200 reaction roles (requires ``nexus-moderators`` role)."
 ```
 
 > Membership to the support server is required to maintain the rewards, as Nexus looks for the role that the donations give you.
