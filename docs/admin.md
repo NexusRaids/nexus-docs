@@ -20,6 +20,7 @@
    ``!reset-points <@user>``, "Use this to reset the amount of points from a user."
    ``!rr <setting>``, "Use this to access reaction roles. See `RR Settings`_."
    ``!server <setting>``, "Use this to access server settings. See `Server Settings`_."
+   ``!update-all-members-roles``, "Use this to update all roles of members on your server. This action can take up to several minutes. This will update all profile roles, if they exist (ign, tc, level, country, team, profile)."
 
 .. Note:: Nexus has a 50 reaction roles limit per user/server for ``!poke-rr`` and ``!rr`` commands. If you would like to increase that limit please see :doc:`Donations<donation>` to learn more.
 
@@ -34,6 +35,7 @@
    :widths: 5, 20
 
    ``!create emoji <pokemon> <verbose=True>``, "This will create an emoji from the Pokémon you input. It has a cooldown of 60 seconds."
+   ``!create profile-roles``, "Use this to create all the profile roles. This includes ign, tc, level, country and profile."
    ``!create role <arg> <verbose=True>``, "Use this to create a role."
    ``!create team-roles``, "Use this to create the mystic, valor and instinct roles."
 
