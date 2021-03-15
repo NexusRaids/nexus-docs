@@ -52,8 +52,8 @@
 	width: 100%;
 }
 
-p.head {
-	margin-bottom: 0px;
+table.docutils .head p {
+	margin-bottom: 0px !important;
 }
 
 
