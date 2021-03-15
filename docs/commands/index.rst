@@ -1,10 +1,11 @@
-Raid Guide
+Commands
 ===================================
 
 .. toctree::
    :maxdepth: 2
 
-   joining
-   hosting
+   administration
+   profile
+   raids
+   trades
    other
-   points

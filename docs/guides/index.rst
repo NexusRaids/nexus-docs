@@ -1,8 +1,9 @@
-Trade Guide
+Guides
 ===================================
 
 .. toctree::
    :maxdepth: 2
-
-   trade
-   gts
+ 
+   hosting-raids 
+   joining-raids
+   

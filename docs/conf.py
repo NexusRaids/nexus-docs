@@ -87,7 +87,7 @@ html_theme_options = {
 
 html_context = {
     'css_files': [
-        '_static/theme_overrides.css?update?v6',
+        '_static/theme_overrides.css?update?v1',
         ],
      }
 	 

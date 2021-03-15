@@ -18,7 +18,7 @@
 
 .. csv-table::
    :header: "Supporter Level (USD)", "Rewards"
-   :widths: 5, 20
+   :widths: 20, 80
    
    "Donor ($1/mo)", "|md| 30 Screenshots. |br| |md| Store 1 additional profile via ``!change-profile``. |br| |md| Gives you 3 trading spots via ``!global-trading-system``. |br| |md| Create 75 reaction roles (requires ``nexus-moderators`` role)."
    "Supporter ($2/mo)", "|md| 60 Screenshots. |br| |md| Store 2 additional profiles via ``!change-profile``. |br| |md| Gives you 5 trading spots via ``!global-trading-system``. |br| |md| Create 100 reaction roles (requires ``nexus-moderators`` role)."

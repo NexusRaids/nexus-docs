@@ -33,14 +33,13 @@ Setup Profiles
    :maxdepth: 2
    :hidden:
 
-   command
-   trainer
-   raid-guide/index
-   trade-guide/index
-   admin
-   other
+   command-usage
+   guides/index
+   commands/index
+   slash-commands
+   point-system
    donation
    
 .. |invite_link| raw:: html
 
-   <div><a class="invite_button" href="https://discord.com/api/oauth2/authorize?client_id=761036478783422484&permissions=2013785169&scope=bot" target="_blank">Invite Nexus to your server</a></div>
+   <div><a class="invite_button" href="https://discord.com/api/oauth2/authorize?client_id=761036478783422484&permissions=2013785169&scope=bot%20applications.commands" target="_blank">Invite Nexus to your server</a></div>
