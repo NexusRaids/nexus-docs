@@ -92,8 +92,6 @@ html_context = {
      }
 	 
 html_show_sourcelink = False
-html_show_copyright = False
-html_show_sphinx = False
 
 	
 # -- Extension configuration -------------------------------------------------
