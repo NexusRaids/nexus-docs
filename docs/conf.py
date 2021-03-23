@@ -94,7 +94,6 @@ html_context = {
 html_show_sourcelink = False
 html_show_copyright = False
 html_show_sphinx = False
-html_last_updated_fmt = '%m/%d/%Y'
 
 	
 # -- Extension configuration -------------------------------------------------
