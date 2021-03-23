@@ -1,34 +1,18 @@
-Nexus Quick Start
-===================================
+Change Log
+==========
 
-|invite_link|
+**3/22/2021:**
 
-Once Nexus is added to your server, it will immediately create a new channel called ``#nexus-updates``. This channel is used for update notifications and the ``nexus-moderator`` role for people who want to run administration commands.
+   Added: ``!award badge <user> <badge_name>`` to `Commands/Administration <commands/administration.html#award>`__. |br|
+   Added: ``!create badge <emoji> <name>`` to `Commands/Administration <commands/administration.html#create>`__. |br|
+   Added: ``!delete badge <name>`` to `Commands/Administration <commands/administration.html#delete>`__. |br|
+   Added: ``!revoke badge <user> <badge_name>`` to `Commands/Administration <commands/administration.html#revoke>`__. |br|
+   Added: ``!view badges`` to `Commands/Administration <commands/administration.html#view>`__. |br|
+   Updated: ``![boss|b] <pokemon>`` was ``!boss <pokemon>`` in `Commands/Raids <commands/raids.html#boss>`__. |br|
+   Updated `Command Usage <command-usage.html>`__ page to add a note on argument quotes. |br|
+   Moved `Quick Start <guides/quick-start.html>`__ to Guides. |br|
 
-Configuring Nexus
-#################
-
-Raiding
-*******
-
-    You need to setup your raid channel with ``!server raid-channel <#channel>``. The raid channel is a special channel in which all raids will be.
-
-Cross-server raids
-******************
-
-    You need to setup the channel in which you'll receive raids from other servers with ``!server online-channel <#channel>``. You can send your raid to other servers by running ``!go-live`` inside a raid.
-
-Setup Your Mods
-***************
-
-    Once Nexus is configured, add all your mods and admins to the ``nexus-moderators`` role.
-
-Setup Profiles
-**************
-
-    Before a user can raid, a profile needs to be setup by running ``!set profile`` with entries that matches their Pokémon Go profile.
-
-
+	
 .. toctree::
    :maxdepth: 2
    :hidden:
@@ -40,6 +24,6 @@ Setup Profiles
    point-system
    donation
    
-.. |invite_link| raw:: html
+.. |br| raw:: html
 
-   <div><a class="invite_button" href="https://discord.com/api/oauth2/authorize?client_id=761036478783422484&permissions=2013785169&scope=bot%20applications.commands" target="_blank">Invite Nexus to your server</a></div>
+   <br>

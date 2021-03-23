@@ -2,6 +2,18 @@
 
 > The following commands can only be preformed by users with the `nexus-moderators` role.
 
+## award
+
+```eval_rst
+
+.. csv-table::
+   :header: "Command", "Description"
+   :widths: 20, 80
+
+   ``!award badge <user> <badge_name>``, "Use this to award a badge to a user."
+
+```
+
 ## create
 
 ```eval_rst
@@ -10,6 +22,7 @@
    :header: "Command", "Description"
    :widths: 20, 80
 
+   ``!create badge <emoji> <name>``, "Use this to create a custom badge on your server."
    ``!create emoji <pokemon> <verbose=True>``, "This will create an emoji from the Pokémon you input. It has a cooldown of 60 seconds."
    ``!create profile-roles``, "Use this to create all the profile roles. This includes ign, tc, level, country and profile."
    ``!create role <arg> <verbose=True>``, "Use this to create a role."
@@ -26,6 +39,7 @@
    :widths: 20, 80
 
    ``!delete all-poke-roles``, "Use this to delete all the poke roles in your server."
+   ``!delete badge <name>``, "Use this to delete a custom badge on your server."
    ``!delete emoji <pokemon> <verbose=True>``, "This will delete an emoji from the Pokémon you input. It has a cooldown of 60 seconds."
    ``!delete not-global-poke-roles``, "Use this to delete all the poke roles from Pokémon that are currently not active in raids."
    ``!delete poke-roles <pokemon...>``, "Use this to delete the roles of the Pokémon you input, as well as the weather boosted roles."
@@ -133,6 +147,18 @@
 
 ```
 
+## revoke
+
+```eval_rst
+
+.. csv-table::
+   :header: "Command", "Description"
+   :widths: 20, 80
+
+   ``!revoke badge <user> <badge_name>``, "Use this to revoke a badge from a user."
+
+```
+
 ## rr
 
 ```eval_rst
@@ -176,5 +202,17 @@
    :widths: 20, 80
 
    ``!update-all-members-roles``, "Use this to update all roles of members on your server. This action can take up to several minutes. This will update all profile roles, if they exist (ign, tc, level, country, team, profile)"
+
+```
+
+## view
+
+```eval_rst
+
+.. csv-table::
+   :header: "Command", "Description"
+   :widths: 20, 80
+
+   ``!view badges``, "Use this to view all badges in your server"
 
 ```

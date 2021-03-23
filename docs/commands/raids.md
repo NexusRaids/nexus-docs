@@ -44,7 +44,7 @@
    :header: "Command", "Description"
    :widths: 20, 80
 
-   ``!boss <pokemon>``, "Use this in a raid to change the raid boss you are hosting."
+   ``![boss|b] <pokemon>``, "Use this in a raid to change the raid boss you are hosting."
 
 ```
          
