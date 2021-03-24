@@ -124,12 +124,16 @@
 
 ```eval_rst
 
+.. |br| raw:: html
+
+   <br>
+
 .. csv-table::
    :header: "Command", "Description"
    :widths: 20, 80
 
-   ``!poke-rr create <channel> [include_weather_boosted=False] [include_permaboosted=False] [include_tier_roles=False] [pokemon...]``, "Use this to create a reaction role of the pokémon you input. This will also create all the necessary roles."
-   ``!poke-rr global <channel> [tier=all] [include_weather_boosted=False] [include_permaboosted=False] [include_tier_roles=False]``, "Use this to create a reaction role of the pokémon currently in raids. Tiers: ``<mega|5|3|1>``"
+   ``!poke-rr create <channel> [include_weather_boosted=False]`` |br| ``[include_permaboosted=False] [include_tier_roles=False] [pokemon...]``, "Use this to create a reaction role of the pokémon you input. This will also create all the necessary roles."
+   ``!poke-rr global <channel> [tier=all] [include_weather_boosted=False]`` |br| ``[include_permaboosted=False] [include_tier_roles=False]``, "Use this to create a reaction role of the pokémon currently in raids. Tiers: ``<mega|5|3|1>``"
    ``!poke-rr preview <pokemon...>``, "Use this to preview the reaction role for the Pokémon you input."
 
 ```
