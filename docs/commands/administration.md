@@ -2,6 +2,18 @@
 
 > The following commands can only be preformed by users with the `nexus-moderators` role.
 
+## automatic-leaderboard
+
+```eval_rst
+
+.. csv-table::
+   :header: "Command", "Description"
+   :widths: 20, 80
+
+   ``!automatic-leaderboard <channel>``, "Use this to send an automatic leaderboard that will update every 24 hours."
+
+```
+
 ## award
 
 ```eval_rst
@@ -11,6 +23,7 @@
    :widths: 20, 80
 
    ``!award badge <user> <badge_name>``, "Use this to award a badge to a user."
+   ``!award upgrade``, "Use this to award an upgrade to the server in which you are running this command."
 
 ```
 
@@ -44,6 +57,18 @@
    ``!delete not-global-poke-roles``, "Use this to delete all the poke roles from Pokémon that are currently not active in raids."
    ``!delete poke-roles <pokemon...>``, "Use this to delete the roles of the Pokémon you input, as well as the weather boosted roles."
    ``!delete role <arg> <verbose=True>``, "Use this to delete a role."
+
+```
+
+## extended-leaderboard
+
+```eval_rst
+
+.. csv-table::
+   :header: "Command", "Description"
+   :widths: 20, 80
+
+   ``!extended-leaderboard [recent=True]``, "Use this to view the complete leaderboard."
 
 ```
 
@@ -103,8 +128,8 @@
    :header: "Command", "Description"
    :widths: 20, 80
 
-   ``!poke-rr create <channel> <pokemon...>``, "Use this to create a reaction role of the Pokémon you input. This will create both a normal reaction role and a weather boosted reaction role, along with all roles."
-   ``!poke-rr global <channel> <tier=all>``, "Use this to create a reaction role of the Pokémon currently in raids. Tiers: ``<mega|5|3|1>``"
+   ``!poke-rr create <channel> [include_weather_boosted=False] [include_permaboosted=False] [include_tier_roles=False] [pokemon...]``, "Use this to create a reaction role of the pokémon you input. This will also create all the necessary roles."
+   ``!poke-rr global <channel> [tier=all] [include_weather_boosted=False] [include_permaboosted=False] [include_tier_roles=False]``, "Use this to create a reaction role of the pokémon currently in raids. Tiers: ``<mega|5|3|1>``"
    ``!poke-rr preview <pokemon...>``, "Use this to preview the reaction role for the Pokémon you input."
 
 ```
@@ -132,6 +157,18 @@
    :widths: 20, 80
 
    ``!punish <user>``, "Use this to deduct 10 points from a user."
+
+```
+
+## reset-leaderboard
+
+```eval_rst
+
+.. csv-table::
+   :header: "Command", "Description"
+   :widths: 20, 80
+
+   ``!reset-leaderboard``, "Use this to reset the leaderboard."
 
 ```
 
@@ -183,6 +220,9 @@
 
    ``!server change-nicknames``, "Use this to change the nicknames of every member in your server to their corresponding in-game name (only if set)."
    ``!server change-prefix <prefix>``, "Use this to change the prefix on your server."
+   ``!server info``, "Use this to check information about your server."
+   ``!server log-channel [channel]``, "Use this to set the channel in which you'll receive logs from the raids on your server."
+   ``!server main-raid-channel [channel]``, "Use this to set the channel in which all raids will be visible."
    ``!server online-channel <channel>``, "Use this to set the channel in which you'll receive raids from other servers."
    ``!server raid-channel <channel>``, "Use this to set the channel in which raids will be posted. All other messages will be removed from this channel."
    ``!server setup-channel <channel>``, "Use this to set the channel in which Nexus will mention players when they try to create or join raids and they don't have permission to do so."

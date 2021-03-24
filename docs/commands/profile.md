@@ -34,7 +34,7 @@
    :header: "Command", "Description"
    :widths: 20, 80
 
-   ``!leaderboard``, "Use this to see the top 10 trainers who have joined and hosted raids, as well as the ones with more points."
+   ``!leaderboard [recent=True]``, "Use this to see the top 10 trainers who have joined and hosted raids, as well as the ones with more points. You can specify if you want to retrieve the most recent leaderboard or the all-time leaderboard."
  
 ```
 
