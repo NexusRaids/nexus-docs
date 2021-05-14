@@ -26,18 +26,6 @@
  
 ```
 
-## leaderboard
-
-```eval_rst
-
-.. csv-table::
-   :header: "Command", "Description"
-   :widths: 20, 80
-
-   ``!leaderboard [recent=True]``, "Use this to see the top 10 trainers who have joined and hosted raids, as well as the ones with more points. You can specify if you want to retrieve the most recent leaderboard or the all-time leaderboard."
- 
-```
-
 ## level
 
 ```eval_rst
@@ -97,12 +85,14 @@
    ``!set country <country>``, "Use this to set your country. You can give this the name of the country or the country code. (e.g. United States or US)."
    ``!set ign <ign>``, "Use this to set your in-game name."
    ``!set [level|lvl] <level>``, "Use this to set your level. You can set it to a maximum of 50."
+   ``!set location <latitude> <longitude>``, "Use this to set your location for trading purposes. Your location can't be seen by anyone. You need to input your latitude and longitude."
+   ``!set profile``, "Use this to set all settings in your profile."
    ``!set [tc|fc|trainer-code|friend-code] <trainer_code>``, "Use this to set your trainer code."
    ``!set team <team>``, "Use this to set your team. The available teams are mystic, valor and instinct."
  
 ```
 
-## tc
+## trainer-code
 
 ```eval_rst
 

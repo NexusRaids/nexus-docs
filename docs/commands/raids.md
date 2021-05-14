@@ -56,7 +56,7 @@
    :header: "Command", "Description"
    :widths: 20, 80
 
-   ``!bye``, "Use this to leave a raid. If you are the Host the raid will end."
+   ``![bye|leave]``, "Use this to leave a raid. If you are the Host the raid will end."
 
 ```
           
@@ -68,7 +68,7 @@
    :header: "Command", "Description"
    :widths: 20, 80
 
-   ``!close <verbose=True>``, "Use this in a raid to close it, no one else can join the raid."
+   ``!close``, "Use this in a raid to close it, no one else can join the raid."
 
 ```
          
@@ -152,7 +152,7 @@
    :header: "Command", "Description"
    :widths: 20, 80
 
-   ``![invites-limit|limit] <amount=5>``, "Use this in a raid to limit the amount of players you are inviting. You can reset the limit by running the command with no argument."
+   ``![invites-limit|limit|il] <amount=5>``, "Use this in a raid to limit the amount of players you are inviting. You can reset the limit by running the command with no argument."
 
 ```
  
@@ -224,7 +224,7 @@
    :header: "Command", "Description"
    :widths: 20, 80
 
-   ``!min-level <level>``, "Use this in a raid to change the minimum level required to enter the raid."
+   ``![min-level|minimum-level|ml] <level>``, "Use this in a raid to change the minimum level required to enter the raid."
 
 ```
    
@@ -236,7 +236,7 @@
    :header: "Command", "Description"
    :widths: 20, 80
 
-   ``!only-hosting <yes/no>``, "Use this in a raid to change if you are only hosting the raid and not joining, or if you are joining with the invitees."
+   ``![only-hosting|oh] <yes/no>``, "Use this in a raid to change if you are only hosting the raid and not joining, or if you are joining with the invitees."
 
 ```
  
@@ -248,7 +248,7 @@
    :header: "Command", "Description"
    :widths: 20, 80
 
-   ``!open <verbose=True>``, "Use this in a raid to open it."
+   ``!open``, "Use this in a raid to open it."
 
 ```
           
@@ -374,7 +374,7 @@
    :header: "Command", "Description"
    :widths: 20, 80
 
-   ``!time-left <minutes>``, "Use this in a raid to see how much time is left on the raid. If you are the host, you can give this command the amount of minutes that are left on your raid to update it."
+   ``![time-left|time|tl] <minutes>``, "Use this in a raid to see how much time is left on the raid. If you are the host, you can give this command the amount of minutes that are left on your raid to update it."
 
 ```
     
@@ -410,6 +410,6 @@
    :header: "Command", "Description"
    :widths: 20, 80
 
-   ``!weather-boosted <yes/no>``, "Use this in a raid to change if the raid is weather boosted or not."
+   ``![weather-boosted|wb] <yes/no>``, "Use this in a raid to change if the raid is weather boosted or not."
 
 ```

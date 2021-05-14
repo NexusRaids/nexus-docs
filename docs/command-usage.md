@@ -10,17 +10,6 @@
 
 ```eval_rst
 
-.. # define a hard line break for HTML
-..  |img| raw:: html
-
-   <img src="_static/img/verbose.png">
-
-.. Note:: When a command has an input of ``<verbose=True>`` this means Nexus will return a response by default. To override the command response enter ``False``.
-
-   Example: ``!create role <arg> <verbose=True>``
-   
-   |img|
-   
 .. Note:: Arguments on commands are separated by a space. Generally, when an argument is the last argument on a command, even if you separate text by a space it will all default to that same argument. If you wish to insert text that have a space into a single argument, you can wrap the argument in quotes ("argument"). For instance, if you want to award the raid master badge to the user called test user, this will work: ``!award badge "test user" "raid master"``
 
 

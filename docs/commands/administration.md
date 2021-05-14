@@ -2,18 +2,6 @@
 
 > The following commands can only be preformed by users with the `nexus-moderators` role.
 
-## automatic-leaderboard
-
-```eval_rst
-
-.. csv-table::
-   :header: "Command", "Description"
-   :widths: 20, 80
-
-   ``!automatic-leaderboard <channel>``, "Use this to send an automatic leaderboard that will update every 24 hours."
-
-```
-
 ## award
 
 ```eval_rst
@@ -36,9 +24,10 @@
    :widths: 20, 80
 
    ``!create badge <emoji> <name>``, "Use this to create a custom badge on your server."
-   ``!create emoji <pokemon> <verbose=True>``, "This will create an emoji from the Pokémon you input. It has a cooldown of 60 seconds."
+   ``!create emoji <pokemon>``, "This will create an emoji from the Pokémon you input."
+   ``!create global-emoji <pokemon>``, "This will create an emoji from the Pokémon you input."
    ``!create profile-roles``, "Use this to create all the profile roles. This includes ign, tc, level, country and profile."
-   ``!create role <arg> <verbose=True>``, "Use this to create a role."
+   ``!create role <arg>``, "Use this to create a role."
    ``!create team-roles``, "Use this to create the mystic, valor and instinct roles."
 
 ```
@@ -53,22 +42,10 @@
 
    ``!delete all-poke-roles``, "Use this to delete all the poke roles in your server."
    ``!delete badge <name>``, "Use this to delete a custom badge on your server."
-   ``!delete emoji <pokemon> <verbose=True>``, "This will delete an emoji from the Pokémon you input. It has a cooldown of 60 seconds."
+   ``!delete emoji <pokemon>``, "This will delete an emoji from the Pokémon you input. It has a cooldown of 60 seconds."
    ``!delete not-global-poke-roles``, "Use this to delete all the poke roles from Pokémon that are currently not active in raids."
    ``!delete poke-roles <pokemon...>``, "Use this to delete the roles of the Pokémon you input, as well as the weather boosted roles."
-   ``!delete role <arg> <verbose=True>``, "Use this to delete a role."
-
-```
-
-## extended-leaderboard
-
-```eval_rst
-
-.. csv-table::
-   :header: "Command", "Description"
-   :widths: 20, 80
-
-   ``!extended-leaderboard [recent=True]``, "Use this to view the complete leaderboard."
+   ``!delete role <arg>``, "Use this to delete a role."
 
 ```
 
@@ -96,7 +73,7 @@
 
 ```
 
-## leaderboard-ban
+## leaderboard
 
 ```eval_rst
 
@@ -104,37 +81,12 @@
    :header: "Command", "Description"
    :widths: 20, 80
 
-   ``!leaderboard-ban <user>``, "Use this to remove a user from appearing on the leaderboard."
-
-```
-
-## leaderboard-unban
-
-```eval_rst
-
-.. csv-table::
-   :header: "Command", "Description"
-   :widths: 20, 80
-
-   ``!leaderboard-unban <user>``, "Use this to make a user appear on the leaderboard again."
-
-```
-
-## poke-rr
-
-```eval_rst
-
-.. |br| raw:: html
-
-   <br>
-
-.. csv-table::
-   :header: "Command", "Description"
-   :widths: 20, 80
-
-   ``!poke-rr create <channel> [include_weather_boosted=False]`` |br| ``[include_permaboosted=False] [include_tier_roles=False] [pokemon...]``, "Use this to create a reaction role of the pokémon you input. This will also create all the necessary roles."
-   ``!poke-rr global <channel> [tier=all] [include_weather_boosted=False]`` |br| ``[include_permaboosted=False] [include_tier_roles=False]``, "Use this to create a reaction role of the pokémon currently in raids. Tiers: ``<mega|5|3|1>``"
-   ``!poke-rr preview <pokemon...>``, "Use this to preview the reaction role for the Pokémon you input."
+   ``!leaderboard view <recent=True>``, "Use this to see the top 10 trainers who have joined and hosted raids, as well as the ones with more points. You can specify if you want to retrieve the most recent leaderboard or the all-time leaderboard."
+   ``!leaderboard automatic <channel>``, "Use this to send an automatic leaderboard that will update every 24 hours."
+   ``!leaderboard ban <user>``, "Use this to remove a user from appearing on the leaderboard."
+   ``!leaderboard extended <recent=True>``, "Use this to view the complete leaderboard."
+   ``!leaderboard unban <user>``, "Use this to make a user appear on the leaderboard again."
+   ``!leaderboard reset``, "Use this to reset the leaderboard."
 
 ```
 
@@ -152,6 +104,27 @@
 
 ```
 
+## poke-rr
+
+```eval_rst
+
+.. |br| raw:: html
+
+   <br>
+
+.. csv-table::
+   :header: "Command", "Description"
+   :widths: 20, 80
+
+   ``!poke-rr create <channel> [pokemon...]``, "Use this to create a reaction role of the pokémon you input. This will also create all the necessary roles."
+   ``!poke-rr global <channel> [tier=all]``, "Use this to create a reaction role of the pokémon currently in raids. Tiers: ``<mega|5|3|1>``"
+   ``!poke-rr mentionable``, "Use this to toggle on/off roles from pokémon reaction roles being mentionable."
+   ``!poke-rr permaboosted``, "Use this to toggle on/off permaboosted showing on pokémon reaction roles."
+   ``!poke-rr tier-roles``, "Use this to toggle on/off tier roles showing on pokémon reaction roles."
+   ``!poke-rr weather-boosted``, "Use this to toggle on/off weather boosted pokémon reaction roles."
+   
+```
+
 ## punish
 
 ```eval_rst
@@ -161,18 +134,6 @@
    :widths: 20, 80
 
    ``!punish <user>``, "Use this to deduct 10 points from a user."
-
-```
-
-## reset-leaderboard
-
-```eval_rst
-
-.. csv-table::
-   :header: "Command", "Description"
-   :widths: 20, 80
-
-   ``!reset-leaderboard``, "Use this to reset the leaderboard."
 
 ```
 
@@ -200,7 +161,7 @@
 
 ```
 
-## rr
+## reaction-role
 
 ```eval_rst
 
@@ -208,9 +169,9 @@
    :header: "Command", "Description"
    :widths: 20, 80
 
-   ``!rr create <message_id> <channel> <emoji> <role>``, "Generic reaction role implementation."
-   ``!rr delete <message_id> <channel_id>``, "Use this to delete a reaction role from your server. You can also manually delete the message."
-   ``!rr view``, "Use this to view all your reaction roles. There's a limit fo 50 per server."
+   ``![rr|reaction-role] create <message_id> <channel> <emoji> <role>``, "Generic reaction role implementation."
+   ``![rr|reaction-role] delete <message_id> <channel_id>``, "Use this to delete a reaction role from your server. You can also manually delete the message."
+   ``![rr|reaction-role] view``, "Use this to view all your reaction roles. There's a limit fo 50 per server."
 
 ```
 
@@ -222,6 +183,7 @@
    :header: "Command", "Description"
    :widths: 20, 80
 
+   ``!server change-moderator-role <role>``, "Use this to change the moderator role in your server."
    ``!server change-nicknames``, "Use this to change the nicknames of every member in your server to their corresponding in-game name (only if set)."
    ``!server change-prefix <prefix>``, "Use this to change the prefix on your server."
    ``!server info``, "Use this to check information about your server."

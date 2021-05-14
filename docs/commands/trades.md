@@ -14,7 +14,7 @@
    ``!global-trading-system pending``, "You can run this command to see all trades that you have pending."
    ``!global-trading-system remove <id>``, "Use this to remove one of your trading offers. You can get the trade id by checking your trading offers."
    ``!global-trading-system search <pokemon...>``, "Use this to search a trade for a Pokémon within your range. If you give no Pokémon to this command, it will search all available trades."
-   ``!global-trading-system submit <offer_pokemon> <pokemon_wanted>``, "Use this submit a trade on the global trading system. Your discord tag will will be visible to trainers that accept your trade so you can coordinate with each other."
+   ``!global-trading-system [submit|offer] <offer_pokemon> <pokemon_wanted>``, "Use this submit a trade on the global trading system. Your discord tag will will be visible to trainers that accept your trade so you can coordinate with each other."
    ``!global-trading-system success <id>``, "If you succeed in trading, you can run this command to mark your trade as done. You can get the trade id by checking your trading offers."
    
 ```
@@ -27,7 +27,6 @@
    :header: "Command", "Description"
    :widths: 20, 80
 
-   ``!set location  <latitude> <longitude>``, "Use this to set your location for trading purposes. Your location can't be seen by anyone. You need to input your latitude and longitude."
    ``!trade``, "Use this to search for trainers on the discord server which are in the valid trading range. If there are no bonuses (40km), this will search for trainers within a 1km radius."
  
 ```

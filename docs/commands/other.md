@@ -20,7 +20,7 @@
    :header: "Command", "Description"
    :widths: 20, 80
 
-   ``!pst``, "Get the current time in PST. This is useful for events that start in this timezone."
+   ``![pt|pdt|pst]``, "Get the current time in Pacific Time. This is useful for events that start in this timezone."
    
 ```
 
@@ -32,7 +32,7 @@
    :header: "Command", "Description"
    :widths: 20, 80
 
-   ``!summon``, "Summon Nexus."
+   ``![summon|ping]``, "Summon Nexus. Or get the latency of the bot. Whatever sounds cooler."
    
 ```
 
