@@ -302,22 +302,10 @@
    :header: "Command", "Description"
    :widths: 20, 80
 
-   ``![raid-bosses|current-rotation|active-rotation|active-bosses]``, "Use this to get the list of the active bosses."
+   ``![raid-bosses|current-rotation|active-rotation|active-bosses] <option=embed>``, "Use this to get the list of the active bosses. Options: ``<embed|raw>``"
 
 ```
   
-## raw-raid-bosses 
-
-```eval_rst
-
-.. csv-table::
-   :header: "Command", "Description"
-   :widths: 20, 80
-
-   ``!raw-raid-bosses``, "Use this to get the raw list of the active bosses."
-
-```
-
 ## ready  
 
 ```eval_rst
@@ -363,6 +351,18 @@
    :widths: 20, 80
 
    ``!reset-ready``, "Use this in a raid to reset the ready status from everyone."
+
+```
+
+## thanks 
+
+```eval_rst
+
+.. csv-table::
+   :header: "Command", "Description"
+   :widths: 20, 80
+
+   ``!thanks``, "Use this in a raid to give an extra point to the host once the raid has started."
 
 ```
    

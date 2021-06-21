@@ -8,4 +8,5 @@ Commands
    profile
    raids
    trades
+   utils
    other

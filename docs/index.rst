@@ -1,6 +1,16 @@
 Change Log
 ==========
 
+**6/20/2021**
+
+   Added: ``!pokedex <pokemon>`` to `Commands/Utils <commands/utils.html#pokedex>`__. |br|
+   Added: ``![pvp|pvp-rank|pvp-rankings] <pokemon> <league=great-league> <category=overall>`` to `Commands/Utils <commands/utils.html#pvp-rank>`__. |br|
+   Added: ``!thanks`` to `Commands/Raids <commands/raids.html#thanks>`__. |br|   
+   Updated: ``!server online-channel <channel> <tier=all>`` was ``!server online-channel <channel>`` in `Commands/Administration <commands/administration.html#server>`__. |br|
+   Updated: ``![raid-bosses|current-rotation|active-rotation|active-bosses] <option=embed>`` was ``![raid-bosses|current-rotation|active-rotation|active-bosses]`` in `Commands/Raids <commands/raids.html#raid-bosses>`__. |br|
+   Removed: ``!raw-raid-bosses`` from `Commands/Raids <commands/raids.html>`__. |br|
+
+
 **5/14/2021:**
 
    Added: ``!create global-emoji`` to `Commands/Administration <commands/administration.html#create>`__. |br|

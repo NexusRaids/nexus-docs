@@ -108,16 +108,12 @@
 
 ```eval_rst
 
-.. |br| raw:: html
-
-   <br>
-
 .. csv-table::
    :header: "Command", "Description"
    :widths: 20, 80
 
-   ``!poke-rr create <channel> [pokemon...]``, "Use this to create a reaction role of the pokémon you input. This will also create all the necessary roles."
-   ``!poke-rr global <channel> [tier=all]``, "Use this to create a reaction role of the pokémon currently in raids. Tiers: ``<mega|5|3|1>``"
+   ``!poke-rr create <channel> <pokemon...>``, "Use this to create a reaction role of the pokémon you input. This will also create all the necessary roles."
+   ``!poke-rr global <channel> <tier=all>``, "Use this to create a reaction role of the pokémon currently in raids. Tiers: ``<all|mega|5|3|1>``"
    ``!poke-rr mentionable``, "Use this to toggle on/off roles from pokémon reaction roles being mentionable."
    ``!poke-rr permaboosted``, "Use this to toggle on/off permaboosted showing on pokémon reaction roles."
    ``!poke-rr tier-roles``, "Use this to toggle on/off tier roles showing on pokémon reaction roles."
@@ -187,9 +183,9 @@
    ``!server change-nicknames``, "Use this to change the nicknames of every member in your server to their corresponding in-game name (only if set)."
    ``!server change-prefix <prefix>``, "Use this to change the prefix on your server."
    ``!server info``, "Use this to check information about your server."
-   ``!server log-channel [channel]``, "Use this to set the channel in which you'll receive logs from the raids on your server."
-   ``!server main-raid-channel [channel]``, "Use this to set the channel in which all raids will be visible."
-   ``!server online-channel <channel>``, "Use this to set the channel in which you'll receive raids from other servers."
+   ``!server log-channel <channel>``, "Use this to set the channel in which you'll receive logs from the raids on your server."
+   ``!server main-raid-channel <channel>``, "Use this to set the channel in which all raids will be visible."
+   ``!server online-channel <channel> <tier=all>``, "Use this to set the channel in which you'll receive raids from other servers. Tiers: ``<all|mega|5|3|1>``"
    ``!server raid-channel <channel>``, "Use this to set the channel in which raids will be posted. All other messages will be removed from this channel."
    ``!server setup-channel <channel>``, "Use this to set the channel in which Nexus will mention players when they try to create or join raids and they don't have permission to do so."
    ``!server toggle force-nickname``, "Use this to toggle on/off forcing nicknames of members of your server to be their respective in-game trainer names."
