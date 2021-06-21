@@ -1,0 +1,205 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Command Usage &mdash; Nexus  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/theme_overrides.css?update?v5" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Guides" href="guides/index.html" />
+    <link rel="prev" title="Change Log" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html">
+          
+
+          
+            
+            <img src="_static/nexus.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Command Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="guides/index.html">Guides</a></li>
+<li class="toctree-l1"><a class="reference internal" href="commands/index.html">Commands</a></li>
+<li class="toctree-l1"><a class="reference internal" href="slash-commands.html">Slash Commands</a></li>
+<li class="toctree-l1"><a class="reference internal" href="point-system.html">Point System</a></li>
+<li class="toctree-l1"><a class="reference internal" href="donation.html">Donations</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Nexus</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Command Usage</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <section id="command-usage">
+<h1>Command Usage<a class="headerlink" href="#command-usage" title="Permalink to this headline">¶</a></h1>
+<blockquote>
+<div><p>Commands shown on this site are using the default prefix <code class="docutils literal notranslate"><span class="pre">!</span></code>, please note server admin’s can change the prefix to best suit their community.</p>
+<p>Commands in <code class="docutils literal notranslate"><span class="pre">[</span> <span class="pre">]</span></code> are showing aliases that perform the same task, and <code class="docutils literal notranslate"><span class="pre">&lt;</span> <span class="pre">&gt;</span></code> are used to show the desired input.</p>
+<p>Example message entry in Discord for <code class="docutils literal notranslate"><span class="pre">!set</span> <span class="pre">[tc|fc|trainer-code|friend-code]</span> <span class="pre">&lt;trainer_code&gt;</span></code> would be <code class="docutils literal notranslate"><span class="pre">!set</span> <span class="pre">tc</span> <span class="pre">111122223333</span></code> or <code class="docutils literal notranslate"><span class="pre">!set</span> <span class="pre">trainer-code</span> <span class="pre">111122223333</span></code>.</p>
+<img src="_static/img/code-example.png"></div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Arguments on commands are separated by a space. Generally, when an argument is the last argument on a command, even if you separate text by a space it will all default to that same argument. If you wish to insert text that have a space into a single argument, you can wrap the argument in quotes (“argument”). For instance, if you want to award the raid master badge to the user called test user, this will work: <code class="docutils literal notranslate"><span class="pre">!award</span> <span class="pre">badge</span> <span class="pre">&quot;test</span> <span class="pre">user&quot;</span> <span class="pre">&quot;raid</span> <span class="pre">master&quot;</span></code></p>
+</div>
+</section>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="Change Log" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="guides/index.html" class="btn btn-neutral float-right" title="Guides" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

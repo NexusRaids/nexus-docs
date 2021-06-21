@@ -1,0 +1,61 @@
+@media screen and (min-width: 767px) {
+
+   .wy-table-responsive table td {
+      white-space: normal !important;
+   }
+
+   .wy-table-responsive {
+      overflow: visible !important;
+   }
+}
+
+@media screen and (min-width: 1100px) {
+	
+	.wy-nav-content {
+		max-width: inherit !important;
+	}
+}
+
+.donate_button {
+	text-transform: uppercase;
+	color: #ffffff !important;
+	text-decoration: none;
+	padding: 20px;
+	display: inline-block;
+	margin-bottom: 20px;
+	background: #2980b9;
+	width: 350px;
+	border-radius: 0.5rem;
+}
+
+.donate_button:hover {
+	background: #343131;
+}
+
+.invite_button {
+	text-transform: uppercase;
+	color: #ffffff !important;
+	text-decoration: none;
+	padding: 16px;
+	display: inline-block;
+	background: #2980b9;
+	width: 350px;
+	border-radius: 0.5rem;
+	text-align: center;
+	margin-left: 24px;
+    margin-bottom: 24px
+}
+
+.invite_button:hover {
+	background: #343131;
+}
+
+.colwidths-given {
+	width: 100%;
+}
+
+table.docutils .head p {
+	margin-bottom: 0px !important;
+}
+
+

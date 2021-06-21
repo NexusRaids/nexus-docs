@@ -1,0 +1,409 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Profile &mdash; Nexus  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/theme_overrides.css?update?v5" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Raids" href="raids.html" />
+    <link rel="prev" title="Administration" href="administration.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html">
+          
+
+          
+            
+            <img src="../_static/nexus.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../command-usage.html">Command Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guides/index.html">Guides</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Commands</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="administration.html">Administration</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Profile</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#change-profile">change-profile</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#ign">ign</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#level">level</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id1">profile</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#save-profile">save-profile</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#search">search</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#set">set</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#trainer-code">trainer-code</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#update-my-roles">update-my-roles</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="raids.html">Raids</a></li>
+<li class="toctree-l2"><a class="reference internal" href="trades.html">Trades</a></li>
+<li class="toctree-l2"><a class="reference internal" href="utils.html">Utils</a></li>
+<li class="toctree-l2"><a class="reference internal" href="other.html">Other</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../slash-commands.html">Slash Commands</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../point-system.html">Point System</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../donation.html">Donations</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Nexus</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html">Commands</a> &raquo;</li>
+        
+      <li>Profile</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <section id="profile">
+<h1>Profile<a class="headerlink" href="#profile" title="Permalink to this headline">¶</a></h1>
+<blockquote>
+<div><p>Profiles in Nexus are shared across servers wherever the bot is installed allowing for a seamless experience in every community.</p>
+</div></blockquote>
+<section id="change-profile">
+<h2>change-profile<a class="headerlink" href="#change-profile" title="Permalink to this headline">¶</a></h2>
+<table class="colwidths-given docutils align-default">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 80%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Command</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">!change-profile</span></code></p></td>
+<td><p>Use this to change your profile. You need to support Nexus to access this command.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="ign">
+<h2>ign<a class="headerlink" href="#ign" title="Permalink to this headline">¶</a></h2>
+<table class="colwidths-given docutils align-default">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 80%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Command</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">!ign</span> <span class="pre">&lt;user&gt;</span></code></p></td>
+<td><p>Use this to retrieve someone’s in-game name.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="level">
+<h2>level<a class="headerlink" href="#level" title="Permalink to this headline">¶</a></h2>
+<table class="colwidths-given docutils align-default">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 80%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Command</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">![level|lvl]</span> <span class="pre">&lt;user&gt;</span></code></p></td>
+<td><p>Use this to retrieve someone’s level.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id1">
+<h2>profile<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<table class="colwidths-given docutils align-default">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 80%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Command</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">!profile</span> <span class="pre">&lt;user&gt;</span></code></p></td>
+<td><p>Use this to show someone’s profile.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="save-profile">
+<h2>save-profile<a class="headerlink" href="#save-profile" title="Permalink to this headline">¶</a></h2>
+<table class="colwidths-given docutils align-default">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 80%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Command</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">!save-profile</span></code></p></td>
+<td><p>Use this to save your current profile. You need to support Nexus to access this command.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="search">
+<h2>search<a class="headerlink" href="#search" title="Permalink to this headline">¶</a></h2>
+<table class="colwidths-given docutils align-default">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 80%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Command</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">!search</span> <span class="pre">&lt;ign&gt;</span></code></p></td>
+<td><p>Use this to search for a trainer in your server.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="set">
+<h2>set<a class="headerlink" href="#set" title="Permalink to this headline">¶</a></h2>
+<table class="colwidths-given docutils align-default">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 80%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Command</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">!set</span> <span class="pre">country</span> <span class="pre">&lt;country&gt;</span></code></p></td>
+<td><p>Use this to set your country. You can give this the name of the country or the country code. (e.g. United States or US).</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">!set</span> <span class="pre">ign</span> <span class="pre">&lt;ign&gt;</span></code></p></td>
+<td><p>Use this to set your in-game name.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">!set</span> <span class="pre">[level|lvl]</span> <span class="pre">&lt;level&gt;</span></code></p></td>
+<td><p>Use this to set your level. You can set it to a maximum of 50.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">!set</span> <span class="pre">location</span> <span class="pre">&lt;latitude&gt;</span> <span class="pre">&lt;longitude&gt;</span></code></p></td>
+<td><p>Use this to set your location for trading purposes. Your location can’t be seen by anyone. You need to input your latitude and longitude.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">!set</span> <span class="pre">profile</span></code></p></td>
+<td><p>Use this to set all settings in your profile.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">!set</span> <span class="pre">[tc|fc|trainer-code|friend-code]</span> <span class="pre">&lt;trainer_code&gt;</span></code></p></td>
+<td><p>Use this to set your trainer code.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">!set</span> <span class="pre">team</span> <span class="pre">&lt;team&gt;</span></code></p></td>
+<td><p>Use this to set your team. The available teams are mystic, valor and instinct.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="trainer-code">
+<h2>trainer-code<a class="headerlink" href="#trainer-code" title="Permalink to this headline">¶</a></h2>
+<table class="colwidths-given docutils align-default">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 80%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Command</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">![tc|fc|trainer-code|friend-code]</span> <span class="pre">&lt;user&gt;</span></code></p></td>
+<td><p>Use this to retrieve someone’s trainer code.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="update-my-roles">
+<h2>update-my-roles<a class="headerlink" href="#update-my-roles" title="Permalink to this headline">¶</a></h2>
+<table class="colwidths-given docutils align-default">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 80%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Command</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">!update-my-roles</span></code></p></td>
+<td><p>Use this to update your profile roles according to your current information set on Nexus. If your server has no profile roles, this command will not do anything.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="administration.html" class="btn btn-neutral float-left" title="Administration" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="raids.html" class="btn btn-neutral float-right" title="Raids" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
